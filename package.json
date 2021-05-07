@@ -1,6 +1,6 @@
 {
     "name": "proyectoAlexFin",
-    "description": "Trabajo propuesto por Enrique",
+    "description": "La parte de configuracion",
     "version": "0.0.1",
     "dependencies": {},
     "node-red": {
