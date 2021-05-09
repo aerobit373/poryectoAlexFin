@@ -277,7 +277,7 @@
         "name": "e-mail",
         "tab": "4c9d7b7d.05f8b4",
         "order": 1,
-        "disp": true,
+        "disp": false,
         "width": "6",
         "collapse": false
     },
@@ -294,7 +294,7 @@
         "rap": true,
         "rh": 0,
         "x": 240,
-        "y": 140,
+        "y": 660,
         "wires": [
             [
                 "dcc769b8.4e5608"
@@ -314,7 +314,7 @@
         "rap": true,
         "rh": 0,
         "x": 240,
-        "y": 80,
+        "y": 600,
         "wires": [
             [
                 "14d9a19a.92481e"
@@ -334,7 +334,7 @@
         "rap": true,
         "rh": 0,
         "x": 210,
-        "y": 260,
+        "y": 780,
         "wires": [
             [
                 "212c9d3f.57dd02"
@@ -354,7 +354,7 @@
         "rap": true,
         "rh": 0,
         "x": 210,
-        "y": 200,
+        "y": 720,
         "wires": [
             [
                 "4d76fbc5.91de54"
@@ -384,7 +384,7 @@
         "seg1": "",
         "seg2": "",
         "x": 730,
-        "y": 40,
+        "y": 560,
         "wires": []
     },
     {
@@ -415,19 +415,22 @@
         "repair": false,
         "outputs": 3,
         "x": 550,
-        "y": 80,
+        "y": 600,
         "wires": [
             [
                 "c7515d53.a95fe",
-                "e555b1c1.42929"
+                "e555b1c1.42929",
+                "983ecc19.0e5d7"
             ],
             [
                 "a9a6e4a7.a86ad8",
-                "500abb72.51a174"
+                "500abb72.51a174",
+                "dbcb901.cd6b97"
             ],
             [
                 "190840fe.16e71f",
-                "7185ea61.328404"
+                "7185ea61.328404",
+                "90510443.05e9f8"
             ]
         ]
     },
@@ -454,7 +457,7 @@
         "seg1": "",
         "seg2": "",
         "x": 730,
-        "y": 80,
+        "y": 600,
         "wires": []
     },
     {
@@ -480,7 +483,7 @@
         "seg1": "",
         "seg2": "",
         "x": 730,
-        "y": 120,
+        "y": 640,
         "wires": []
     },
     {
@@ -506,7 +509,7 @@
         "seg1": "",
         "seg2": "",
         "x": 730,
-        "y": 160,
+        "y": 680,
         "wires": []
     },
     {
@@ -537,19 +540,22 @@
         "repair": false,
         "outputs": 3,
         "x": 550,
-        "y": 200,
+        "y": 720,
         "wires": [
             [
                 "1e2ceae2.adde75",
-                "b641af7f.2241"
+                "b641af7f.2241",
+                "c2eff72e.febab"
             ],
             [
                 "b48c02ed.1b35e",
-                "eec60900.894828"
+                "eec60900.894828",
+                "255e2ca6.b12b84"
             ],
             [
                 "4292e656.70df28",
-                "30480cd2.6ec594"
+                "30480cd2.6ec594",
+                "b26105b.35910f8"
             ]
         ]
     },
@@ -576,7 +582,7 @@
         "seg1": "",
         "seg2": "",
         "x": 730,
-        "y": 200,
+        "y": 720,
         "wires": []
     },
     {
@@ -602,7 +608,7 @@
         "seg1": "",
         "seg2": "",
         "x": 730,
-        "y": 240,
+        "y": 760,
         "wires": []
     },
     {
@@ -633,19 +639,22 @@
         "repair": false,
         "outputs": 3,
         "x": 550,
-        "y": 320,
+        "y": 840,
         "wires": [
             [
                 "87fa9616.6b4048",
-                "63b0665.364f598"
+                "63b0665.364f598",
+                "30be189.5707be8"
             ],
             [
                 "de0a1c2e.54af6",
-                "7d1c5660.a487c8"
+                "7d1c5660.a487c8",
+                "741e1f74.aa0f98"
             ],
             [
                 "cd583a59.c1bab8",
-                "56c1125c.763e8c"
+                "56c1125c.763e8c",
+                "93daa90d.c1113"
             ]
         ]
     },
@@ -672,7 +681,7 @@
         "seg1": "",
         "seg2": "",
         "x": 730,
-        "y": 280,
+        "y": 800,
         "wires": []
     },
     {
@@ -698,7 +707,7 @@
         "seg1": "",
         "seg2": "",
         "x": 730,
-        "y": 320,
+        "y": 840,
         "wires": []
     },
     {
@@ -724,7 +733,7 @@
         "seg1": "",
         "seg2": "",
         "x": 730,
-        "y": 360,
+        "y": 880,
         "wires": []
     },
     {
@@ -755,19 +764,22 @@
         "repair": false,
         "outputs": 3,
         "x": 550,
-        "y": 440,
+        "y": 960,
         "wires": [
             [
                 "1370b10d.e14f3f",
-                "b84f6d36.e2e7e"
+                "b84f6d36.e2e7e",
+                "c6375feb.96e82"
             ],
             [
                 "307bbe05.1e9a72",
-                "346bbdf7.3fb212"
+                "346bbdf7.3fb212",
+                "15f86cb0.40d78b"
             ],
             [
                 "d79a1de9.4a6cb",
-                "6b3c03ce.c5ee1c"
+                "6b3c03ce.c5ee1c",
+                "481532b3.cb936c"
             ]
         ]
     },
@@ -794,7 +806,7 @@
         "seg1": "",
         "seg2": "",
         "x": 730,
-        "y": 400,
+        "y": 920,
         "wires": []
     },
     {
@@ -820,7 +832,7 @@
         "seg1": "",
         "seg2": "",
         "x": 730,
-        "y": 440,
+        "y": 960,
         "wires": []
     },
     {
@@ -846,7 +858,7 @@
         "seg1": "",
         "seg2": "",
         "x": 730,
-        "y": 480,
+        "y": 1000,
         "wires": []
     },
     {
@@ -887,7 +899,7 @@
         "outputs": 1,
         "useDifferentColor": false,
         "x": 850,
-        "y": 60,
+        "y": 580,
         "wires": [
             []
         ]
@@ -930,7 +942,7 @@
         "outputs": 1,
         "useDifferentColor": false,
         "x": 850,
-        "y": 100,
+        "y": 620,
         "wires": [
             []
         ]
@@ -973,7 +985,7 @@
         "outputs": 1,
         "useDifferentColor": false,
         "x": 850,
-        "y": 140,
+        "y": 660,
         "wires": [
             []
         ]
@@ -1016,7 +1028,7 @@
         "outputs": 1,
         "useDifferentColor": false,
         "x": 850,
-        "y": 180,
+        "y": 700,
         "wires": [
             []
         ]
@@ -1059,7 +1071,7 @@
         "outputs": 1,
         "useDifferentColor": false,
         "x": 850,
-        "y": 220,
+        "y": 740,
         "wires": [
             []
         ]
@@ -1102,7 +1114,7 @@
         "outputs": 1,
         "useDifferentColor": false,
         "x": 850,
-        "y": 260,
+        "y": 780,
         "wires": [
             []
         ]
@@ -1145,7 +1157,7 @@
         "outputs": 1,
         "useDifferentColor": false,
         "x": 850,
-        "y": 300,
+        "y": 820,
         "wires": [
             []
         ]
@@ -1188,7 +1200,7 @@
         "outputs": 1,
         "useDifferentColor": false,
         "x": 850,
-        "y": 340,
+        "y": 860,
         "wires": [
             []
         ]
@@ -1231,7 +1243,7 @@
         "outputs": 1,
         "useDifferentColor": false,
         "x": 850,
-        "y": 380,
+        "y": 900,
         "wires": [
             []
         ]
@@ -1274,7 +1286,7 @@
         "outputs": 1,
         "useDifferentColor": false,
         "x": 850,
-        "y": 420,
+        "y": 940,
         "wires": [
             []
         ]
@@ -1317,7 +1329,7 @@
         "outputs": 1,
         "useDifferentColor": false,
         "x": 850,
-        "y": 460,
+        "y": 980,
         "wires": [
             []
         ]
@@ -1360,7 +1372,7 @@
         "outputs": 1,
         "useDifferentColor": false,
         "x": 850,
-        "y": 500,
+        "y": 1020,
         "wires": [
             []
         ]
@@ -1371,7 +1383,7 @@
         "z": "ce607311.f76b",
         "name": "",
         "group": "189e3a36.d76d66",
-        "order": 0,
+        "order": 1,
         "width": 0,
         "height": 0,
         "passthru": false,
@@ -1384,8 +1396,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 110,
-        "y": 600,
+        "x": 90,
+        "y": 1300,
         "wires": [
             []
         ]
@@ -1396,7 +1408,7 @@
         "z": "ce607311.f76b",
         "name": "",
         "group": "189e3a36.d76d66",
-        "order": 1,
+        "order": 2,
         "width": 0,
         "height": 0,
         "passthru": false,
@@ -1409,8 +1421,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 110,
-        "y": 640,
+        "x": 90,
+        "y": 1340,
         "wires": [
             []
         ]
@@ -1419,22 +1431,15 @@
         "id": "f3fd1bf3.ca2e18",
         "type": "ui_form",
         "z": "ce607311.f76b",
-        "name": "",
-        "label": "",
+        "name": "form E-mail",
+        "label": "E-mail para Alertas",
         "group": "29d32ec2.d0f5b2",
         "order": 1,
         "width": 0,
         "height": 0,
         "options": [
             {
-                "label": "Nombre",
-                "value": "nombre",
-                "type": "text",
-                "required": true,
-                "rows": null
-            },
-            {
-                "label": "Email",
+                "label": "nuevaDireccion",
                 "value": "email",
                 "type": "email",
                 "required": true,
@@ -1442,7 +1447,6 @@
             }
         ],
         "formValue": {
-            "nombre": "",
             "email": ""
         },
         "payload": "",
@@ -1451,10 +1455,12 @@
         "topic": "topic",
         "topicType": "msg",
         "splitLayout": "",
-        "x": 330,
-        "y": 600,
+        "x": 110,
+        "y": 320,
         "wires": [
-            []
+            [
+                "7a317a52.fde744"
+            ]
         ]
     },
     {
@@ -1466,11 +1472,11 @@
         "width": 0,
         "height": 0,
         "name": "",
-        "label": "Emails",
+        "label": "ultimaDireccion",
         "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "x": 330,
-        "y": 640,
+        "layout": "col-center",
+        "x": 480,
+        "y": 260,
         "wires": []
     },
     {
@@ -1480,7 +1486,7 @@
         "name": "",
         "label": "",
         "tooltip": "",
-        "place": "Select option",
+        "place": "RaspberryPi 1 Enrique",
         "group": "a104d837.3d2e68",
         "order": 1,
         "width": 0,
@@ -1559,7 +1565,7 @@
         "type": "ui_slider",
         "z": "b5696046.c03b1",
         "name": "sliderT",
-        "label": "max.tempe",
+        "label": "max.tempe ºC",
         "tooltip": "",
         "group": "a104d837.3d2e68",
         "order": 2,
@@ -1569,7 +1575,7 @@
         "outs": "end",
         "topic": "eleccActual",
         "topicType": "flow",
-        "min": "60",
+        "min": "40",
         "max": "105",
         "step": 1,
         "x": 290,
@@ -2313,7 +2319,7 @@
         "type": "ui_slider",
         "z": "b5696046.c03b1",
         "name": "sliderM",
-        "label": "max. Mem",
+        "label": "max. Mem MB",
         "tooltip": "",
         "group": "a104d837.3d2e68",
         "order": 4,
@@ -2339,7 +2345,7 @@
         "type": "ui_slider",
         "z": "b5696046.c03b1",
         "name": "sliderC",
-        "label": "max. Cpu",
+        "label": "max. Cpu  %",
         "tooltip": "",
         "group": "a104d837.3d2e68",
         "order": 3,
@@ -3029,7 +3035,7 @@
             {
                 "field": "Parametro",
                 "title": "Parametro",
-                "width": "24%",
+                "width": "25%",
                 "align": "left",
                 "formatter": "plaintext",
                 "formatterParams": {
@@ -3039,7 +3045,7 @@
             {
                 "field": "Valor Alerta",
                 "title": "Valor Alerta",
-                "width": "30%",
+                "width": "29%",
                 "align": "left",
                 "formatter": "plaintext",
                 "formatterParams": {
@@ -3125,5 +3131,1833 @@
         "x": 835,
         "y": 720,
         "wires": []
+    },
+    {
+        "id": "983ecc19.0e5d7",
+        "type": "switch",
+        "z": "ce607311.f76b",
+        "name": "Tempe",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "enriq1grados",
+                "vt": "global"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 690,
+        "y": 40,
+        "wires": [
+            [
+                "4addb702.eaef3"
+            ],
+            [
+                "95eff096.3d62a"
+            ]
+        ]
+    },
+    {
+        "id": "dbcb901.cd6b97",
+        "type": "switch",
+        "z": "ce607311.f76b",
+        "name": "CPU",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "enriq1cpu",
+                "vt": "global"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 690,
+        "y": 120,
+        "wires": [
+            [
+                "ec2673bb.e33d7"
+            ],
+            [
+                "83190b14.eaf8e"
+            ]
+        ]
+    },
+    {
+        "id": "90510443.05e9f8",
+        "type": "switch",
+        "z": "ce607311.f76b",
+        "name": "Mem",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "enriq1mem",
+                "vt": "global"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 690,
+        "y": 200,
+        "wires": [
+            [
+                "399be1bd.bb1da6"
+            ],
+            [
+                "7cd88a.35b45778"
+            ]
+        ]
+    },
+    {
+        "id": "f4e7da7c.575a6",
+        "type": "rbe",
+        "z": "ce607311.f76b",
+        "name": "",
+        "func": "rbei",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "topic",
+        "x": 1010,
+        "y": 40,
+        "wires": [
+            [
+                "29c5c772.2d058"
+            ]
+        ]
+    },
+    {
+        "id": "60a1e141.af8d1",
+        "type": "comment",
+        "z": "ce607311.f76b",
+        "name": "Ultima Direccion de E-mail",
+        "info": "En la carpeta de este proyecto hay un archivo llamado:\n/home/pi/.node-red/projects/proyectoAlexFin/\nultimaDireccion.txt\nsolamente tiene una direccion de E-mail\nNO es un objeto.\n\nCuando me inicio leo la direccion,\nla asigno a (flow) ultimaDireccion,\ny la muestro en el text del dashboard.\n\nCuando la cambias por una nueva, en el form,\nla saco del objeto producido por el form,\nla asigno a (flow) ultimaDireccion,\nla muestro en el text del dashboard,\ny la sobreescribo en el archivo.\n\nQueda guardada para proximas sesiones.",
+        "x": 230,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "2fad9667.30684a",
+        "type": "debug",
+        "z": "ce607311.f76b",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1170,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "40fe4a54.ce95a4",
+        "type": "e-mail",
+        "z": "ce607311.f76b",
+        "server": "smtp.ionos.es",
+        "port": "587",
+        "secure": false,
+        "tls": true,
+        "name": "",
+        "dname": "send E-mail",
+        "x": 1170,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "95eff096.3d62a",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "Normal",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Temperatura Normal",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(\"Raspi 1 Enrique \"&payload&\" ºC\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "to",
+                "pt": "msg",
+                "to": "ultimaDireccion",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 60,
+        "wires": [
+            [
+                "f4e7da7c.575a6"
+            ]
+        ]
+    },
+    {
+        "id": "4addb702.eaef3",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "ALTA",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Temperatura ALTA",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(\"Raspi 1 Enrique \"&payload&\" ºC\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "to",
+                "pt": "msg",
+                "to": "ultimaDireccion",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 20,
+        "wires": [
+            [
+                "f4e7da7c.575a6"
+            ]
+        ]
+    },
+    {
+        "id": "83190b14.eaf8e",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "Normal",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "CPU Normal",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(\"Raspi 1 Enrique \"&payload&\" %\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "to",
+                "pt": "msg",
+                "to": "ultimaDireccion",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 140,
+        "wires": [
+            [
+                "9b1c9f44.556348"
+            ]
+        ]
+    },
+    {
+        "id": "ec2673bb.e33d7",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "ALTA",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "CPU ALTA",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(\"Raspi 1 Enrique \"&payload&\" %\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "to",
+                "pt": "msg",
+                "to": "ultimaDireccion",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 100,
+        "wires": [
+            [
+                "9b1c9f44.556348"
+            ]
+        ]
+    },
+    {
+        "id": "7cd88a.35b45778",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "Normal",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Memoria Normal",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(\"Raspi 1 Enrique \"&payload&\" MB\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "to",
+                "pt": "msg",
+                "to": "ultimaDireccion",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 220,
+        "wires": [
+            [
+                "8880d82a.61881"
+            ]
+        ]
+    },
+    {
+        "id": "399be1bd.bb1da6",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "ALTA",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Memoria ALTA",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(\"Raspi 1 Enrique \"&payload&\" MB\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "to",
+                "pt": "msg",
+                "to": "ultimaDireccion",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 180,
+        "wires": [
+            [
+                "8880d82a.61881"
+            ]
+        ]
+    },
+    {
+        "id": "3b95d108.32f6de",
+        "type": "debug",
+        "z": "ce607311.f76b",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 90,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "9b1c9f44.556348",
+        "type": "rbe",
+        "z": "ce607311.f76b",
+        "name": "",
+        "func": "rbei",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "topic",
+        "x": 1010,
+        "y": 120,
+        "wires": [
+            [
+                "29c5c772.2d058"
+            ]
+        ]
+    },
+    {
+        "id": "8880d82a.61881",
+        "type": "rbe",
+        "z": "ce607311.f76b",
+        "name": "",
+        "func": "rbei",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "topic",
+        "x": 1010,
+        "y": 200,
+        "wires": [
+            [
+                "29c5c772.2d058"
+            ]
+        ]
+    },
+    {
+        "id": "c2eff72e.febab",
+        "type": "switch",
+        "z": "ce607311.f76b",
+        "name": "Tempe",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "enriq2grados",
+                "vt": "global"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 750,
+        "y": 320,
+        "wires": [
+            [
+                "5a43cb3b.daf2cc"
+            ],
+            [
+                "7183d91d.b75348"
+            ]
+        ]
+    },
+    {
+        "id": "255e2ca6.b12b84",
+        "type": "switch",
+        "z": "ce607311.f76b",
+        "name": "CPU",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "enriq2cpu",
+                "vt": "global"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 750,
+        "y": 400,
+        "wires": [
+            [
+                "10556400.bc4e7c"
+            ],
+            [
+                "517c242c.6da33c"
+            ]
+        ]
+    },
+    {
+        "id": "b26105b.35910f8",
+        "type": "switch",
+        "z": "ce607311.f76b",
+        "name": "Mem",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "enriq2mem",
+                "vt": "global"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 750,
+        "y": 480,
+        "wires": [
+            [
+                "bff39847.943048"
+            ],
+            [
+                "d319f4ed.d54588"
+            ]
+        ]
+    },
+    {
+        "id": "7183d91d.b75348",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "Normal",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Temperatura Normal",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(\"Raspi 2 Enrique \"&payload&\" ºC\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "to",
+                "pt": "msg",
+                "to": "ultimaDireccion",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 340,
+        "wires": [
+            [
+                "8294772d.9236a"
+            ]
+        ]
+    },
+    {
+        "id": "5a43cb3b.daf2cc",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "ALTA",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Temperatura ALTA",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(\"Raspi 2 Enrique \"&payload&\" ºC\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "to",
+                "pt": "msg",
+                "to": "ultimaDireccion",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 910,
+        "y": 300,
+        "wires": [
+            [
+                "8294772d.9236a"
+            ]
+        ]
+    },
+    {
+        "id": "517c242c.6da33c",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "Normal",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "CPU Normal",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(\"Raspi 2 Enrique \"&payload&\" %\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "to",
+                "pt": "msg",
+                "to": "ultimaDireccion",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 420,
+        "wires": [
+            [
+                "968e85ad.5d489"
+            ]
+        ]
+    },
+    {
+        "id": "10556400.bc4e7c",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "ALTA",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "CPU ALTA",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(\"Raspi 2 Enrique \"&payload&\" %\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "to",
+                "pt": "msg",
+                "to": "ultimaDireccion",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 910,
+        "y": 380,
+        "wires": [
+            [
+                "968e85ad.5d489"
+            ]
+        ]
+    },
+    {
+        "id": "d319f4ed.d54588",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "Normal",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Memoria Normal",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(\"Raspi 2 Enrique \"&payload&\" MB\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "to",
+                "pt": "msg",
+                "to": "ultimaDireccion",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 500,
+        "wires": [
+            [
+                "70dbf45a.e93d14"
+            ]
+        ]
+    },
+    {
+        "id": "bff39847.943048",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "ALTA",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Memoria ALTA",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(\"Raspi 2 Enrique \"&payload&\" MB\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "to",
+                "pt": "msg",
+                "to": "ultimaDireccion",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 910,
+        "y": 460,
+        "wires": [
+            [
+                "70dbf45a.e93d14"
+            ]
+        ]
+    },
+    {
+        "id": "8294772d.9236a",
+        "type": "rbe",
+        "z": "ce607311.f76b",
+        "name": "",
+        "func": "rbei",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "topic",
+        "x": 1070,
+        "y": 320,
+        "wires": [
+            [
+                "123d0ea4.91b5f9"
+            ]
+        ]
+    },
+    {
+        "id": "968e85ad.5d489",
+        "type": "rbe",
+        "z": "ce607311.f76b",
+        "name": "",
+        "func": "rbei",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "topic",
+        "x": 1070,
+        "y": 400,
+        "wires": [
+            [
+                "123d0ea4.91b5f9"
+            ]
+        ]
+    },
+    {
+        "id": "70dbf45a.e93d14",
+        "type": "rbe",
+        "z": "ce607311.f76b",
+        "name": "",
+        "func": "rbei",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "topic",
+        "x": 1070,
+        "y": 480,
+        "wires": [
+            [
+                "123d0ea4.91b5f9"
+            ]
+        ]
+    },
+    {
+        "id": "30be189.5707be8",
+        "type": "switch",
+        "z": "ce607311.f76b",
+        "name": "Tempe",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "eneko1grados",
+                "vt": "global"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 750,
+        "y": 1120,
+        "wires": [
+            [
+                "4a3b6add.009b1c"
+            ],
+            [
+                "6ef4dc6a.520b3c"
+            ]
+        ]
+    },
+    {
+        "id": "741e1f74.aa0f98",
+        "type": "switch",
+        "z": "ce607311.f76b",
+        "name": "CPU",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "eneko1cpu",
+                "vt": "global"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 750,
+        "y": 1200,
+        "wires": [
+            [
+                "6003ba31.641dd4"
+            ],
+            [
+                "17dd6667.de09b2"
+            ]
+        ]
+    },
+    {
+        "id": "93daa90d.c1113",
+        "type": "switch",
+        "z": "ce607311.f76b",
+        "name": "Mem",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "eneko1mem",
+                "vt": "global"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 750,
+        "y": 1280,
+        "wires": [
+            [
+                "8b1a22f1.82805"
+            ],
+            [
+                "14b2f8ee.6704d7"
+            ]
+        ]
+    },
+    {
+        "id": "57db1867.6656b",
+        "type": "rbe",
+        "z": "ce607311.f76b",
+        "name": "",
+        "func": "rbei",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "topic",
+        "x": 1070,
+        "y": 1120,
+        "wires": [
+            [
+                "a1fd736f.a4d4c"
+            ]
+        ]
+    },
+    {
+        "id": "6ef4dc6a.520b3c",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "Normal",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Temperatura Normal",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(\"Raspi 1 Eneko \"&payload&\" ºC\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "to",
+                "pt": "msg",
+                "to": "ultimaDireccion",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 1140,
+        "wires": [
+            [
+                "57db1867.6656b"
+            ]
+        ]
+    },
+    {
+        "id": "4a3b6add.009b1c",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "ALTA",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Temperatura ALTA",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(\"Raspi 1 Eneko \"&payload&\" ºC\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "to",
+                "pt": "msg",
+                "to": "ultimaDireccion",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 910,
+        "y": 1100,
+        "wires": [
+            [
+                "57db1867.6656b"
+            ]
+        ]
+    },
+    {
+        "id": "17dd6667.de09b2",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "Normal",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "CPU Normal",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(\"Raspi 1 Eneko \"&payload&\" %\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "to",
+                "pt": "msg",
+                "to": "ultimaDireccion",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 1220,
+        "wires": [
+            [
+                "fdcd7295.fd19"
+            ]
+        ]
+    },
+    {
+        "id": "6003ba31.641dd4",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "ALTA",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "CPU ALTA",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(\"Raspi 1 Eneko \"&payload&\" %\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "to",
+                "pt": "msg",
+                "to": "ultimaDireccion",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 910,
+        "y": 1180,
+        "wires": [
+            [
+                "fdcd7295.fd19"
+            ]
+        ]
+    },
+    {
+        "id": "14b2f8ee.6704d7",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "Normal",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Memoria Normal",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(\"Raspi 1 Eneko \"&payload&\" MB\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "to",
+                "pt": "msg",
+                "to": "ultimaDireccion",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 1300,
+        "wires": [
+            [
+                "f8b3b086.22c8d"
+            ]
+        ]
+    },
+    {
+        "id": "8b1a22f1.82805",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "ALTA",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Memoria ALTA",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(\"Raspi 1 Eneko \"&payload&\" MB\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "to",
+                "pt": "msg",
+                "to": "ultimaDireccion",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 910,
+        "y": 1260,
+        "wires": [
+            [
+                "f8b3b086.22c8d"
+            ]
+        ]
+    },
+    {
+        "id": "fdcd7295.fd19",
+        "type": "rbe",
+        "z": "ce607311.f76b",
+        "name": "",
+        "func": "rbei",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "topic",
+        "x": 1070,
+        "y": 1200,
+        "wires": [
+            [
+                "a1fd736f.a4d4c"
+            ]
+        ]
+    },
+    {
+        "id": "f8b3b086.22c8d",
+        "type": "rbe",
+        "z": "ce607311.f76b",
+        "name": "",
+        "func": "rbei",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "topic",
+        "x": 1070,
+        "y": 1280,
+        "wires": [
+            [
+                "a1fd736f.a4d4c"
+            ]
+        ]
+    },
+    {
+        "id": "c6375feb.96e82",
+        "type": "switch",
+        "z": "ce607311.f76b",
+        "name": "Tempe",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "eneko2grados",
+                "vt": "global"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 710,
+        "y": 1420,
+        "wires": [
+            [
+                "25a65489.77ae34"
+            ],
+            [
+                "1cfbb682.e74c09"
+            ]
+        ]
+    },
+    {
+        "id": "15f86cb0.40d78b",
+        "type": "switch",
+        "z": "ce607311.f76b",
+        "name": "CPU",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "eneko2cpu",
+                "vt": "global"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 710,
+        "y": 1500,
+        "wires": [
+            [
+                "ed3a2e03.55084"
+            ],
+            [
+                "46912afd.6a39fc"
+            ]
+        ]
+    },
+    {
+        "id": "481532b3.cb936c",
+        "type": "switch",
+        "z": "ce607311.f76b",
+        "name": "Mem",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "eneko2mem",
+                "vt": "global"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 710,
+        "y": 1580,
+        "wires": [
+            [
+                "3433dd56.b0676a"
+            ],
+            [
+                "271f195c.5e1516"
+            ]
+        ]
+    },
+    {
+        "id": "e93473e4.6e5d8",
+        "type": "rbe",
+        "z": "ce607311.f76b",
+        "name": "",
+        "func": "rbei",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "topic",
+        "x": 1030,
+        "y": 1420,
+        "wires": [
+            [
+                "c34134b4.fbe578"
+            ]
+        ]
+    },
+    {
+        "id": "1cfbb682.e74c09",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "Normal",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Temperatura Normal",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(\"Raspi 2 Eneko \"&payload&\" ºC\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "to",
+                "pt": "msg",
+                "to": "ultimaDireccion",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 1440,
+        "wires": [
+            [
+                "e93473e4.6e5d8"
+            ]
+        ]
+    },
+    {
+        "id": "25a65489.77ae34",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "ALTA",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Temperatura ALTA",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(\"Raspi 2 Eneko \"&payload&\" ºC\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "to",
+                "pt": "msg",
+                "to": "ultimaDireccion",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 870,
+        "y": 1400,
+        "wires": [
+            [
+                "e93473e4.6e5d8"
+            ]
+        ]
+    },
+    {
+        "id": "46912afd.6a39fc",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "Normal",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "CPU Normal",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(\"Raspi 2 Eneko \"&payload&\" %\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "to",
+                "pt": "msg",
+                "to": "ultimaDireccion",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 1520,
+        "wires": [
+            [
+                "3c5e4974.6f5fce"
+            ]
+        ]
+    },
+    {
+        "id": "ed3a2e03.55084",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "ALTA",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "CPU ALTA",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(\"Raspi 2 Eneko \"&payload&\" %\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "to",
+                "pt": "msg",
+                "to": "ultimaDireccion",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 870,
+        "y": 1480,
+        "wires": [
+            [
+                "3c5e4974.6f5fce"
+            ]
+        ]
+    },
+    {
+        "id": "271f195c.5e1516",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "Normal",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Memoria Normal",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(\"Raspi 2 Eneko \"&payload&\" MB\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "to",
+                "pt": "msg",
+                "to": "ultimaDireccion",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 1600,
+        "wires": [
+            [
+                "d5e632dd.df4558"
+            ]
+        ]
+    },
+    {
+        "id": "3433dd56.b0676a",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "ALTA",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Memoria ALTA",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(\"Raspi 2 Eneko \"&payload&\" MB\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "to",
+                "pt": "msg",
+                "to": "ultimaDireccion",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 870,
+        "y": 1560,
+        "wires": [
+            [
+                "d5e632dd.df4558"
+            ]
+        ]
+    },
+    {
+        "id": "3c5e4974.6f5fce",
+        "type": "rbe",
+        "z": "ce607311.f76b",
+        "name": "",
+        "func": "rbei",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "topic",
+        "x": 1030,
+        "y": 1500,
+        "wires": [
+            [
+                "c34134b4.fbe578"
+            ]
+        ]
+    },
+    {
+        "id": "d5e632dd.df4558",
+        "type": "rbe",
+        "z": "ce607311.f76b",
+        "name": "",
+        "func": "rbei",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "topic",
+        "x": 1030,
+        "y": 1580,
+        "wires": [
+            [
+                "c34134b4.fbe578"
+            ]
+        ]
+    },
+    {
+        "id": "29c5c772.2d058",
+        "type": "link out",
+        "z": "ce607311.f76b",
+        "name": "send",
+        "links": [
+            "76ce4089.47ba"
+        ],
+        "x": 1155,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "123d0ea4.91b5f9",
+        "type": "link out",
+        "z": "ce607311.f76b",
+        "name": "send",
+        "links": [
+            "76ce4089.47ba"
+        ],
+        "x": 1215,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "a1fd736f.a4d4c",
+        "type": "link out",
+        "z": "ce607311.f76b",
+        "name": "send",
+        "links": [
+            "76ce4089.47ba"
+        ],
+        "x": 1215,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "c34134b4.fbe578",
+        "type": "link out",
+        "z": "ce607311.f76b",
+        "name": "send",
+        "links": [
+            "76ce4089.47ba"
+        ],
+        "x": 1175,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "76ce4089.47ba",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "send",
+        "links": [
+            "a1fd736f.a4d4c",
+            "c34134b4.fbe578",
+            "123d0ea4.91b5f9",
+            "29c5c772.2d058"
+        ],
+        "x": 1035,
+        "y": 780,
+        "wires": [
+            [
+                "40fe4a54.ce95a4",
+                "2fad9667.30684a"
+            ]
+        ]
+    },
+    {
+        "id": "a33746a3.afd7c8",
+        "type": "inject",
+        "z": "ce607311.f76b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 110,
+        "y": 200,
+        "wires": [
+            [
+                "82bd0800.901938"
+            ]
+        ]
+    },
+    {
+        "id": "fa2bb70a.a5ad78",
+        "type": "file",
+        "z": "ce607311.f76b",
+        "name": "overwrite",
+        "filename": "/home/pi/.node-red/projects/proyectoAlexFin/ultimaDireccion.txt",
+        "appendNewline": false,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 440,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "82bd0800.901938",
+        "type": "file in",
+        "z": "ce607311.f76b",
+        "name": "read",
+        "filename": "/home/pi/.node-red/projects/proyectoAlexFin/ultimaDireccion.txt",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "x": 250,
+        "y": 200,
+        "wires": [
+            [
+                "b0142b5a.da944",
+                "8037bdba.66696"
+            ]
+        ]
+    },
+    {
+        "id": "7a317a52.fde744",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "set",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.email",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 250,
+        "y": 320,
+        "wires": [
+            [
+                "fa2bb70a.a5ad78",
+                "8037bdba.66696",
+                "b0142b5a.da944"
+            ]
+        ]
+    },
+    {
+        "id": "b0142b5a.da944",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "ultimaDireccion",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ultimaDireccion",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 200,
+        "wires": [
+            []
+        ]
     }
 ]
