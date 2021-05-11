@@ -266,7 +266,7 @@
         "type": "ui_group",
         "name": "Acciones",
         "tab": "4c9d7b7d.05f8b4",
-        "order": 2,
+        "order": 1,
         "disp": true,
         "width": "6",
         "collapse": false
@@ -275,11 +275,20 @@
         "id": "29d32ec2.d0f5b2",
         "type": "ui_group",
         "name": "e-mail",
-        "tab": "4c9d7b7d.05f8b4",
-        "order": 1,
+        "tab": "ea3a3fc0.84d1c8",
+        "order": 2,
         "disp": false,
         "width": "6",
         "collapse": false
+    },
+    {
+        "id": "ea3a3fc0.84d1c8",
+        "type": "ui_tab",
+        "name": "Envio de E-mail",
+        "icon": "send",
+        "order": 6,
+        "disabled": false,
+        "hidden": false
     },
     {
         "id": "31b598ed.6a9c58",
@@ -1496,22 +1505,22 @@
         "options": [
             {
                 "label": "RaspberryPi 1 Enrique",
-                "value": "rpi1_enrique",
+                "value": "enriq1",
                 "type": "str"
             },
             {
                 "label": "RaspberryPi 2 Enrique",
-                "value": "rpi2_enrique",
+                "value": "enriq2",
                 "type": "str"
             },
             {
                 "label": "RaspberryPi 1 Eneko",
-                "value": "rpi1_eneko",
+                "value": "eneko1",
                 "type": "str"
             },
             {
                 "label": "RaspberryPi 2 Eneko",
-                "value": "rpi2_eneko",
+                "value": "eneko2",
                 "type": "str"
             }
         ],
@@ -1552,7 +1561,6 @@
         "wires": [
             [
                 "3f3112c6.50f976",
-                "6a22066f.4d2da",
                 "cf584fd6.6cefb8",
                 "af15345e.dcc29",
                 "d83949f1.b1c18",
@@ -1650,22 +1658,22 @@
         "rules": [
             {
                 "t": "eq",
-                "v": "rpi1_enrique",
+                "v": "enriq1",
                 "vt": "str"
             },
             {
                 "t": "eq",
-                "v": "rpi2_enrique",
+                "v": "enriq2",
                 "vt": "str"
             },
             {
                 "t": "eq",
-                "v": "rpi1_eneko",
+                "v": "eneko1",
                 "vt": "str"
             },
             {
                 "t": "eq",
-                "v": "rpi2_eneko",
+                "v": "eneko2",
                 "vt": "str"
             }
         ],
@@ -1780,22 +1788,22 @@
         "rules": [
             {
                 "t": "eq",
-                "v": "rpi1_enrique",
+                "v": "enriq1",
                 "vt": "str"
             },
             {
                 "t": "eq",
-                "v": "rpi2_enrique",
+                "v": "enriq2",
                 "vt": "str"
             },
             {
                 "t": "eq",
-                "v": "rpi1_eneko",
+                "v": "eneko1",
                 "vt": "str"
             },
             {
                 "t": "eq",
-                "v": "rpi2_eneko",
+                "v": "eneko2",
                 "vt": "str"
             }
         ],
@@ -1939,7 +1947,7 @@
         "id": "351eb5b2.66666a",
         "type": "link out",
         "z": "b5696046.c03b1",
-        "name": "grados",
+        "name": "S_grados",
         "links": [
             "7ab8745.0a02a0c"
         ],
@@ -1951,7 +1959,7 @@
         "id": "7ab8745.0a02a0c",
         "type": "link in",
         "z": "b5696046.c03b1",
-        "name": "grados",
+        "name": "S_grados",
         "links": [
             "351eb5b2.66666a"
         ],
@@ -1968,35 +1976,10 @@
         "type": "comment",
         "z": "b5696046.c03b1",
         "name": "3 SLIDER, 4 DROPDOWN y 1 TABLE",
-        "info": "SLIDERs:\ngrados, cpu, mem\nDROPDOWNs:\nrpi1_enrique, rpi2_enrique, rpi1_eneko, rpi2_eneko\nTABLE:\n4 columnas, 12 filas\n\nInicio las variables de contexto\ncon estos valores:\nFLOW\neleccActual \"rpi1_enrique\"\nGLOBAL\nenriq1grados    85\nenriq2grados    85\neneko1grados    85\neneko2grados    85\nenriq1cpu       70\nenriq2cpu       70\neneko1cpu       70\neneko2cpu       70\nenriq1mem       150\nenriq2mem       150\neneko1mem       150\neneko2mem       150\n\nCuando deslizas un slider por primera vez sin\nhaber cambiado el dropdown cambio los valores\nde rpi1_enrique.\nNo importa en cual opcion este el dropdown.\nDespues de un deploy siempre cambio rpi1_enrique.\n\nCuando cambias a otra opcion en el dropdown,\ncambias (flow) eleccActual y ya puedes\ndeslizar el slider que asignara la (global)\nxxxxx#xxx que has elegido.\n\nCada vez que cambias una opcion del dropdown,\nautomaticamente deslizo los sliders a los valores\nguardados para ese dropdown.\n\nCada vez que deslizas un slider actualizo\nlas 12 filas de la tabla, aunque solo estas\ncambiando un valor.",
+        "info": "SLIDERs:\ngrados, cpu, mem\nDROPDOWNs:\nenriq1, enriq2, eneko1, eneko2\nTABLE:\n4 columnas, 12 filas\n\nInicio las variables de contexto\ncon estos valores:\nFLOW\neleccActual \"\"\nGLOBAL\nenriq1grados    85\nenriq2grados    85\neneko1grados    85\neneko2grados    85\nenriq1cpu       70\nenriq2cpu       70\neneko1cpu       70\neneko2cpu       70\nenriq1mem       150\nenriq2mem       150\neneko1mem       150\neneko2mem       150\n\nCuando deslizas un slider por primera vez sin\nhaber cambiado el dropdown no cambio ningun valor\n(flow)eleccActual esta vacia.\n\nCuando cambias a una opcion en el dropdown,\ncambias (flow)eleccActual y ya puedes\ndeslizar el slider que asignara la (global)xxxxx#xxx que has elegido.\n\nCada vez que cambias una opcion del dropdown,\nautomaticamente deslizo los sliders a los 3 valores guardados para ese dropdown.\n\nCada vez que deslizas un slider actualizo solo\nla fila de la tabla de ese Usuario, Dispositivo\ny parametro, por ejemplo enriq1cpu.",
         "x": 210,
         "y": 60,
         "wires": []
-    },
-    {
-        "id": "6a22066f.4d2da",
-        "type": "change",
-        "z": "b5696046.c03b1",
-        "name": "eleccActual",
-        "rules": [
-            {
-                "t": "set",
-                "p": "eleccActual",
-                "pt": "flow",
-                "to": "rpi1_enrique",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 390,
-        "y": 220,
-        "wires": [
-            []
-        ]
     },
     {
         "id": "cf584fd6.6cefb8",
@@ -2018,7 +2001,7 @@
         "to": "",
         "reg": false,
         "x": 310,
-        "y": 260,
+        "y": 220,
         "wires": [
             []
         ]
@@ -2043,7 +2026,7 @@
         "to": "",
         "reg": false,
         "x": 310,
-        "y": 300,
+        "y": 260,
         "wires": [
             []
         ]
@@ -2068,7 +2051,7 @@
         "to": "",
         "reg": false,
         "x": 320,
-        "y": 340,
+        "y": 300,
         "wires": [
             []
         ]
@@ -2093,7 +2076,7 @@
         "to": "",
         "reg": false,
         "x": 320,
-        "y": 380,
+        "y": 340,
         "wires": [
             []
         ]
@@ -2376,22 +2359,22 @@
         "rules": [
             {
                 "t": "eq",
-                "v": "rpi1_enrique",
+                "v": "enriq1",
                 "vt": "str"
             },
             {
                 "t": "eq",
-                "v": "rpi2_enrique",
+                "v": "enriq2",
                 "vt": "str"
             },
             {
                 "t": "eq",
-                "v": "rpi1_eneko",
+                "v": "eneko1",
                 "vt": "str"
             },
             {
                 "t": "eq",
-                "v": "rpi2_eneko",
+                "v": "eneko2",
                 "vt": "str"
             }
         ],
@@ -2560,7 +2543,7 @@
         "id": "e6c69a7f.54bd6",
         "type": "link out",
         "z": "b5696046.c03b1",
-        "name": "cpu",
+        "name": "S_cpu",
         "links": [
             "2242460a.31ce1a"
         ],
@@ -2572,7 +2555,7 @@
         "id": "29be2778.f17fc",
         "type": "link out",
         "z": "b5696046.c03b1",
-        "name": "mem",
+        "name": "S_mem",
         "links": [
             "5b02c17b.c447a"
         ],
@@ -2584,7 +2567,7 @@
         "id": "2242460a.31ce1a",
         "type": "link in",
         "z": "b5696046.c03b1",
-        "name": "cpu",
+        "name": "S_cpu",
         "links": [
             "e6c69a7f.54bd6"
         ],
@@ -2706,22 +2689,22 @@
         "rules": [
             {
                 "t": "eq",
-                "v": "rpi1_enrique",
+                "v": "enriq1",
                 "vt": "str"
             },
             {
                 "t": "eq",
-                "v": "rpi2_enrique",
+                "v": "enriq2",
                 "vt": "str"
             },
             {
                 "t": "eq",
-                "v": "rpi1_eneko",
+                "v": "eneko1",
                 "vt": "str"
             },
             {
                 "t": "eq",
-                "v": "rpi2_eneko",
+                "v": "eneko2",
                 "vt": "str"
             }
         ],
@@ -2857,7 +2840,7 @@
         "id": "5b02c17b.c447a",
         "type": "link in",
         "z": "b5696046.c03b1",
-        "name": "mem",
+        "name": "S_mem",
         "links": [
             "29be2778.f17fc"
         ],
@@ -3013,9 +2996,9 @@
         "height": 7,
         "columns": [
             {
-                "field": "Usuario",
+                "field": "id",
                 "title": "Usuario",
-                "width": "20%",
+                "width": "23%",
                 "align": "left",
                 "formatter": "plaintext",
                 "formatterParams": {
@@ -3045,7 +3028,7 @@
             {
                 "field": "Valor Alerta",
                 "title": "Valor Alerta",
-                "width": "29%",
+                "width": "26%",
                 "align": "left",
                 "formatter": "plaintext",
                 "formatterParams": {
@@ -3055,8 +3038,8 @@
         ],
         "outputs": 0,
         "cts": false,
-        "x": 370,
-        "y": 1360,
+        "x": 450,
+        "y": 1480,
         "wires": []
     },
     {
@@ -3064,14 +3047,14 @@
         "type": "function",
         "z": "b5696046.c03b1",
         "name": "",
-        "func": "msg.payload = [\n{\n\"Usuario\":\"Enrique\",\n\"Dispositivo\":\"Raspi 1\",\n\"Parametro\":\"Temperatura\",\n\"Valor Alerta\":global.get(\"enriq1grados\")\n},\n{\n\"Usuario\":\"Enrique\",\n\"Dispositivo\":\"Raspi 1\",\n\"Parametro\":\"CPU\",\n\"Valor Alerta\":global.get(\"enriq1cpu\")\n},\n{\n\"Usuario\":\"Enrique\",\n\"Dispositivo\":\"Raspi 1\",\n\"Parametro\":\"Memoria\",\n\"Valor Alerta\":global.get(\"enriq1mem\")\n},\n{\n\"Usuario\":\"Enrique\",\n\"Dispositivo\":\"Raspi 2\",\n\"Parametro\":\"Temperatura\",\n\"Valor Alerta\":global.get(\"enriq2grados\")\n},\n{\n\"Usuario\":\"Enrique\",\n\"Dispositivo\":\"Raspi 2\",\n\"Parametro\":\"CPU\",\n\"Valor Alerta\":global.get(\"enriq2cpu\")\n},\n{\n\"Usuario\":\"Enrique\",\n\"Dispositivo\":\"Raspi 2\",\n\"Parametro\":\"Memoria\",\n\"Valor Alerta\":global.get(\"enriq2mem\")\n},\n{\n\"Usuario\":\"Eneko\",\n\"Dispositivo\":\"Raspi 1\",\n\"Parametro\":\"Temperatura\",\n\"Valor Alerta\":global.get(\"eneko1grados\")\n},\n{\n\"Usuario\":\"Eneko\",\n\"Dispositivo\":\"Raspi 1\",\n\"Parametro\":\"CPU\",\n\"Valor Alerta\":global.get(\"eneko1cpu\")\n},\n{\n\"Usuario\":\"Eneko\",\n\"Dispositivo\":\"Raspi 1\",\n\"Parametro\":\"Memoria\",\n\"Valor Alerta\":global.get(\"eneko1mem\")\n},\n{\n\"Usuario\":\"Eneko\",\n\"Dispositivo\":\"Raspi 2\",\n\"Parametro\":\"Temperatura\",\n\"Valor Alerta\":global.get(\"eneko2grados\")\n},\n{\n\"Usuario\":\"Eneko\",\n\"Dispositivo\":\"Raspi 2\",\n\"Parametro\":\"CPU\",\n\"Valor Alerta\":global.get(\"eneko2cpu\")\n},\n{\n\"Usuario\":\"Eneko\",\n\"Dispositivo\":\"Raspi 2\",\n\"Parametro\":\"Memoria\",\n\"Valor Alerta\":global.get(\"eneko2mem\")\n}\n];\nreturn msg;",
+        "func": "msg.payload = [\n{\n\"id\":\"enriq1grados\",\n\"Dispositivo\":\"Raspi 1\",\n\"Parametro\":\"Temperatura\",\n\"Valor Alerta\":global.get(\"enriq1grados\")\n},\n{\n\"id\":\"enriq1cpu\",\n\"Dispositivo\":\"Raspi 1\",\n\"Parametro\":\"CPU\",\n\"Valor Alerta\":global.get(\"enriq1cpu\")\n},\n{\n\"id\":\"enriq1mem\",\n\"Dispositivo\":\"Raspi 1\",\n\"Parametro\":\"Memoria\",\n\"Valor Alerta\":global.get(\"enriq1mem\")\n},\n{\n\"id\":\"enriq2grados\",\n\"Dispositivo\":\"Raspi 2\",\n\"Parametro\":\"Temperatura\",\n\"Valor Alerta\":global.get(\"enriq2grados\")\n},\n{\n\"id\":\"enriq2cpu\",\n\"Dispositivo\":\"Raspi 2\",\n\"Parametro\":\"CPU\",\n\"Valor Alerta\":global.get(\"enriq2cpu\")\n},\n{\n\"id\":\"enriq2mem\",\n\"Dispositivo\":\"Raspi 2\",\n\"Parametro\":\"Memoria\",\n\"Valor Alerta\":global.get(\"enriq2mem\")\n},\n{\n\"id\":\"eneko1grados\",\n\"Dispositivo\":\"Raspi 1\",\n\"Parametro\":\"Temperatura\",\n\"Valor Alerta\":global.get(\"eneko1grados\")\n},\n{\n\"id\":\"eneko1cpu\",\n\"Dispositivo\":\"Raspi 1\",\n\"Parametro\":\"CPU\",\n\"Valor Alerta\":global.get(\"eneko1cpu\")\n},\n{\n\"id\":\"eneko1mem\",\n\"Dispositivo\":\"Raspi 1\",\n\"Parametro\":\"Memoria\",\n\"Valor Alerta\":global.get(\"eneko1mem\")\n},\n{\n\"id\":\"eneko2grados\",\n\"Dispositivo\":\"Raspi 2\",\n\"Parametro\":\"Temperatura\",\n\"Valor Alerta\":global.get(\"eneko2grados\")\n},\n{\n\"id\":\"eneko2cpu\",\n\"Dispositivo\":\"Raspi 2\",\n\"Parametro\":\"CPU\",\n\"Valor Alerta\":global.get(\"eneko2cpu\")\n},\n{\n\"id\":\"eneko2mem\",\n\"Dispositivo\":\"Raspi 2\",\n\"Parametro\":\"Memoria\",\n\"Valor Alerta\":global.get(\"eneko2mem\")\n}\n];\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 220,
-        "y": 1360,
+        "x": 280,
+        "y": 1420,
         "wires": [
             [
                 "a531e1de.56e95"
@@ -3082,7 +3065,7 @@
         "id": "61560fd5.cb13d",
         "type": "link out",
         "z": "b5696046.c03b1",
-        "name": "cambio",
+        "name": "T_grados",
         "links": [
             "3ce7f888.23e5e8"
         ],
@@ -3094,17 +3077,15 @@
         "id": "3ce7f888.23e5e8",
         "type": "link in",
         "z": "b5696046.c03b1",
-        "name": "cambio",
+        "name": "T_grados",
         "links": [
-            "61560fd5.cb13d",
-            "567dea42.141b04",
-            "fa6541a0.53c01"
+            "61560fd5.cb13d"
         ],
         "x": 95,
-        "y": 1360,
+        "y": 1480,
         "wires": [
             [
-                "df8d294d.f2fa5"
+                "c4fcd7b4.29ef7"
             ]
         ]
     },
@@ -3112,9 +3093,9 @@
         "id": "567dea42.141b04",
         "type": "link out",
         "z": "b5696046.c03b1",
-        "name": "cambio",
+        "name": "T_cpu",
         "links": [
-            "3ce7f888.23e5e8"
+            "5032a06d.eaabd8"
         ],
         "x": 815,
         "y": 440,
@@ -3124,9 +3105,9 @@
         "id": "fa6541a0.53c01",
         "type": "link out",
         "z": "b5696046.c03b1",
-        "name": "cambio",
+        "name": "T_mem",
         "links": [
-            "3ce7f888.23e5e8"
+            "81f82584.ff2ac"
         ],
         "x": 835,
         "y": 720,
@@ -4959,5 +4940,173 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "c4fcd7b4.29ef7",
+        "type": "function",
+        "z": "b5696046.c03b1",
+        "name": "",
+        "func": "var usr_disp = msg.topic;\nvar usr_disp_par = usr_disp + \"grados\";\nvar nuevoValor = msg.payload;\nmsg.payload ={\"command\": \"updateData\",\n\"arguments\": [[\n{\n\"id\":usr_disp_par,\n\"Valor Alerta\":nuevoValor\n}\n]]\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 220,
+        "y": 1480,
+        "wires": [
+            [
+                "a531e1de.56e95"
+            ]
+        ]
+    },
+    {
+        "id": "606d46a.ddb7a38",
+        "type": "inject",
+        "z": "b5696046.c03b1",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.2",
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 130,
+        "y": 1420,
+        "wires": [
+            [
+                "df8d294d.f2fa5"
+            ]
+        ]
+    },
+    {
+        "id": "54a3f0d4.893198",
+        "type": "function",
+        "z": "b5696046.c03b1",
+        "name": "",
+        "func": "var usr_disp = msg.topic;\nvar usr_disp_par = usr_disp + \"cpu\";\nvar nuevoValor = msg.payload;\nmsg.payload ={\"command\": \"updateData\",\n\"arguments\": [[\n{\n\"id\":usr_disp_par,\n\"Valor Alerta\":nuevoValor\n}\n]]\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 220,
+        "y": 1540,
+        "wires": [
+            [
+                "a531e1de.56e95"
+            ]
+        ]
+    },
+    {
+        "id": "f560897c.6e3228",
+        "type": "function",
+        "z": "b5696046.c03b1",
+        "name": "",
+        "func": "var usr_disp = msg.topic;\nvar usr_disp_par = usr_disp + \"mem\";\nvar nuevoValor = msg.payload;\nmsg.payload ={\"command\": \"updateData\",\n\"arguments\": [[\n{\n\"id\":usr_disp_par,\n\"Valor Alerta\":nuevoValor\n}\n]]\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 220,
+        "y": 1600,
+        "wires": [
+            [
+                "a531e1de.56e95"
+            ]
+        ]
+    },
+    {
+        "id": "5032a06d.eaabd8",
+        "type": "link in",
+        "z": "b5696046.c03b1",
+        "name": "T_cpu",
+        "links": [
+            "567dea42.141b04"
+        ],
+        "x": 95,
+        "y": 1540,
+        "wires": [
+            [
+                "54a3f0d4.893198"
+            ]
+        ]
+    },
+    {
+        "id": "81f82584.ff2ac",
+        "type": "link in",
+        "z": "b5696046.c03b1",
+        "name": "T_mem",
+        "links": [
+            "fa6541a0.53c01"
+        ],
+        "x": 95,
+        "y": 1600,
+        "wires": [
+            [
+                "f560897c.6e3228"
+            ]
+        ]
+    },
+    {
+        "id": "a3645fcf.1b1d78",
+        "type": "comment",
+        "z": "b5696046.c03b1",
+        "name": "Slider de temperatura a global y a table",
+        "info": "",
+        "x": 590,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "517a0b29.fae794",
+        "type": "comment",
+        "z": "b5696046.c03b1",
+        "name": "Slider de CPU a global y a table",
+        "info": "",
+        "x": 550,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "8d9c45b.2e017b8",
+        "type": "comment",
+        "z": "b5696046.c03b1",
+        "name": "Slider de Memoria a global y a table",
+        "info": "",
+        "x": 560,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "10f55d8b.986e32",
+        "type": "comment",
+        "z": "b5696046.c03b1",
+        "name": "Dropdown de Usuario y dispositivo a flow y a slider",
+        "info": "",
+        "x": 290,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "d7d2a014.9cb978",
+        "type": "comment",
+        "z": "b5696046.c03b1",
+        "name": "Cambio en slider a  table",
+        "info": "",
+        "x": 190,
+        "y": 1360,
+        "wires": []
     }
 ]
