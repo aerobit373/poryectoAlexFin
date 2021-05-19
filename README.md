@@ -20,3 +20,14 @@ envio un email y cuando vuelve tambien.
 
 Tercera version del trabajo final.
 Se usa la funcion (de tabulator) updateData, para no actualizar toda la tabla cada vez que deslizas un slider, sino solo una fila.
+
+Cuarta version del trabajo final
+Guardar un dato por cada n datos recibidos.
+Saco el promedio X/n de tres lotes de datos, separados por su topic,
+los ordeno para el caso de que no llegen siempre en el mismo orden,
+espero un timeout para el caso en que falle una recepcion,
+anado el timestamp y guardo los tres datos.
+Graficar archivos.
+Leo el archivo csv y creo el payload especial para chart-node.
+Puedes enviar un archivo. Recibiras una advertencia.
+Puedes reiniciar los 4 archivos. Tienes que escribir la clave 1234.
