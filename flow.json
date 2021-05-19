@@ -157,7 +157,7 @@
     {
         "id": "134f850c.afb93b",
         "type": "ui_tab",
-        "name": "Configuración",
+        "name": "Alertas",
         "icon": "fa-cog",
         "order": 4,
         "disabled": false,
@@ -255,9 +255,9 @@
     {
         "id": "4c9d7b7d.05f8b4",
         "type": "ui_tab",
-        "name": "Gestion de Ficheros",
+        "name": "Archivos",
         "icon": "fa-file-text",
-        "order": 5,
+        "order": 6,
         "disabled": false,
         "hidden": false
     },
@@ -267,8 +267,8 @@
         "name": "Acciones",
         "tab": "4c9d7b7d.05f8b4",
         "order": 1,
-        "disp": true,
-        "width": "6",
+        "disp": false,
+        "width": 15,
         "collapse": false
     },
     {
@@ -284,11 +284,30 @@
     {
         "id": "ea3a3fc0.84d1c8",
         "type": "ui_tab",
-        "name": "Envio de E-mail",
+        "name": "E-mail",
         "icon": "send",
-        "order": 6,
+        "order": 5,
         "disabled": false,
         "hidden": false
+    },
+    {
+        "id": "57b0108b.363f88",
+        "type": "ui_group",
+        "name": "Graficos",
+        "tab": "4c9d7b7d.05f8b4",
+        "order": 2,
+        "disp": false,
+        "width": 15,
+        "collapse": false
+    },
+    {
+        "id": "aaa0490e.7de9f8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "29d32ec2.d0f5b2",
+        "order": 2,
+        "width": 6,
+        "height": 1
     },
     {
         "id": "31b598ed.6a9c58",
@@ -392,7 +411,7 @@
         ],
         "seg1": "",
         "seg2": "",
-        "x": 730,
+        "x": 990,
         "y": 560,
         "wires": []
     },
@@ -427,19 +446,13 @@
         "y": 600,
         "wires": [
             [
-                "c7515d53.a95fe",
-                "e555b1c1.42929",
-                "983ecc19.0e5d7"
+                "17ea4f3c.4d6fd1"
             ],
             [
-                "a9a6e4a7.a86ad8",
-                "500abb72.51a174",
-                "dbcb901.cd6b97"
+                "6adeff4b.6b1bd"
             ],
             [
-                "190840fe.16e71f",
-                "7185ea61.328404",
-                "90510443.05e9f8"
+                "12f128fc.c3383f"
             ]
         ]
     },
@@ -465,7 +478,7 @@
         ],
         "seg1": "",
         "seg2": "",
-        "x": 730,
+        "x": 990,
         "y": 600,
         "wires": []
     },
@@ -491,7 +504,7 @@
         ],
         "seg1": "",
         "seg2": "",
-        "x": 730,
+        "x": 990,
         "y": 640,
         "wires": []
     },
@@ -517,7 +530,7 @@
         ],
         "seg1": "",
         "seg2": "",
-        "x": 730,
+        "x": 990,
         "y": 680,
         "wires": []
     },
@@ -552,19 +565,13 @@
         "y": 720,
         "wires": [
             [
-                "1e2ceae2.adde75",
-                "b641af7f.2241",
-                "c2eff72e.febab"
+                "c9fddd04.3bda8"
             ],
             [
-                "b48c02ed.1b35e",
-                "eec60900.894828",
-                "255e2ca6.b12b84"
+                "5780dc17.8c0cf4"
             ],
             [
-                "4292e656.70df28",
-                "30480cd2.6ec594",
-                "b26105b.35910f8"
+                "1a466f9.69f279"
             ]
         ]
     },
@@ -590,7 +597,7 @@
         ],
         "seg1": "",
         "seg2": "",
-        "x": 730,
+        "x": 990,
         "y": 720,
         "wires": []
     },
@@ -616,7 +623,7 @@
         ],
         "seg1": "",
         "seg2": "",
-        "x": 730,
+        "x": 990,
         "y": 760,
         "wires": []
     },
@@ -651,19 +658,13 @@
         "y": 840,
         "wires": [
             [
-                "87fa9616.6b4048",
-                "63b0665.364f598",
-                "30be189.5707be8"
+                "79bff079.c8b62"
             ],
             [
-                "de0a1c2e.54af6",
-                "7d1c5660.a487c8",
-                "741e1f74.aa0f98"
+                "eec8b02.e6fa4d"
             ],
             [
-                "cd583a59.c1bab8",
-                "56c1125c.763e8c",
-                "93daa90d.c1113"
+                "164b0501.92993b"
             ]
         ]
     },
@@ -689,7 +690,7 @@
         ],
         "seg1": "",
         "seg2": "",
-        "x": 730,
+        "x": 990,
         "y": 800,
         "wires": []
     },
@@ -715,7 +716,7 @@
         ],
         "seg1": "",
         "seg2": "",
-        "x": 730,
+        "x": 990,
         "y": 840,
         "wires": []
     },
@@ -741,7 +742,7 @@
         ],
         "seg1": "",
         "seg2": "",
-        "x": 730,
+        "x": 990,
         "y": 880,
         "wires": []
     },
@@ -776,19 +777,13 @@
         "y": 960,
         "wires": [
             [
-                "1370b10d.e14f3f",
-                "b84f6d36.e2e7e",
-                "c6375feb.96e82"
+                "c2f39faa.518bc"
             ],
             [
-                "307bbe05.1e9a72",
-                "346bbdf7.3fb212",
-                "15f86cb0.40d78b"
+                "50f0eaa.3799094"
             ],
             [
-                "d79a1de9.4a6cb",
-                "6b3c03ce.c5ee1c",
-                "481532b3.cb936c"
+                "f32e2e2.a53445"
             ]
         ]
     },
@@ -814,7 +809,7 @@
         ],
         "seg1": "",
         "seg2": "",
-        "x": 730,
+        "x": 990,
         "y": 920,
         "wires": []
     },
@@ -840,7 +835,7 @@
         ],
         "seg1": "",
         "seg2": "",
-        "x": 730,
+        "x": 990,
         "y": 960,
         "wires": []
     },
@@ -866,7 +861,7 @@
         ],
         "seg1": "",
         "seg2": "",
-        "x": 730,
+        "x": 990,
         "y": 1000,
         "wires": []
     },
@@ -907,7 +902,7 @@
         ],
         "outputs": 1,
         "useDifferentColor": false,
-        "x": 850,
+        "x": 1110,
         "y": 580,
         "wires": [
             []
@@ -950,7 +945,7 @@
         ],
         "outputs": 1,
         "useDifferentColor": false,
-        "x": 850,
+        "x": 1110,
         "y": 620,
         "wires": [
             []
@@ -993,7 +988,7 @@
         ],
         "outputs": 1,
         "useDifferentColor": false,
-        "x": 850,
+        "x": 1110,
         "y": 660,
         "wires": [
             []
@@ -1036,7 +1031,7 @@
         ],
         "outputs": 1,
         "useDifferentColor": false,
-        "x": 850,
+        "x": 1110,
         "y": 700,
         "wires": [
             []
@@ -1079,7 +1074,7 @@
         ],
         "outputs": 1,
         "useDifferentColor": false,
-        "x": 850,
+        "x": 1110,
         "y": 740,
         "wires": [
             []
@@ -1122,7 +1117,7 @@
         ],
         "outputs": 1,
         "useDifferentColor": false,
-        "x": 850,
+        "x": 1110,
         "y": 780,
         "wires": [
             []
@@ -1165,7 +1160,7 @@
         ],
         "outputs": 1,
         "useDifferentColor": false,
-        "x": 850,
+        "x": 1110,
         "y": 820,
         "wires": [
             []
@@ -1208,7 +1203,7 @@
         ],
         "outputs": 1,
         "useDifferentColor": false,
-        "x": 850,
+        "x": 1110,
         "y": 860,
         "wires": [
             []
@@ -1251,7 +1246,7 @@
         ],
         "outputs": 1,
         "useDifferentColor": false,
-        "x": 850,
+        "x": 1110,
         "y": 900,
         "wires": [
             []
@@ -1294,7 +1289,7 @@
         ],
         "outputs": 1,
         "useDifferentColor": false,
-        "x": 850,
+        "x": 1110,
         "y": 940,
         "wires": [
             []
@@ -1337,7 +1332,7 @@
         ],
         "outputs": 1,
         "useDifferentColor": false,
-        "x": 850,
+        "x": 1110,
         "y": 980,
         "wires": [
             []
@@ -1380,7 +1375,7 @@
         ],
         "outputs": 1,
         "useDifferentColor": false,
-        "x": 850,
+        "x": 1110,
         "y": 1020,
         "wires": [
             []
@@ -1392,23 +1387,25 @@
         "z": "ce607311.f76b",
         "name": "",
         "group": "189e3a36.d76d66",
-        "order": 1,
-        "width": 0,
-        "height": 0,
+        "order": 7,
+        "width": 2,
+        "height": 1,
         "passthru": false,
-        "label": "Borra datos",
+        "label": "Start_Files",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
         "icon": "",
-        "payload": "",
+        "payload": "Los cuatro archivos se borraran",
         "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 90,
-        "y": 1300,
+        "topic": "ATENCION",
+        "topicType": "str",
+        "x": 1390,
+        "y": 1120,
         "wires": [
-            []
+            [
+                "f06ee7f7.0dbc68"
+            ]
         ]
     },
     {
@@ -1417,11 +1414,11 @@
         "z": "ce607311.f76b",
         "name": "",
         "group": "189e3a36.d76d66",
-        "order": 2,
-        "width": 0,
-        "height": 0,
+        "order": 4,
+        "width": 2,
+        "height": 1,
         "passthru": false,
-        "label": "Envía Datos",
+        "label": "Send_File",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
@@ -1430,10 +1427,12 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 90,
-        "y": 1340,
+        "x": 1060,
+        "y": 1280,
         "wires": [
-            []
+            [
+                "cfb599da.214c"
+            ]
         ]
     },
     {
@@ -1441,11 +1440,11 @@
         "type": "ui_form",
         "z": "ce607311.f76b",
         "name": "form E-mail",
-        "label": "E-mail para Alertas",
+        "label": "E-mail para enviar Alertas y Archivos",
         "group": "29d32ec2.d0f5b2",
         "order": 1,
-        "width": 0,
-        "height": 0,
+        "width": 6,
+        "height": 1,
         "options": [
             {
                 "label": "nuevaDireccion",
@@ -1459,8 +1458,8 @@
             "email": ""
         },
         "payload": "",
-        "submit": "submit",
-        "cancel": "cancel",
+        "submit": "aceptar",
+        "cancel": "cancelar",
         "topic": "topic",
         "topicType": "msg",
         "splitLayout": "",
@@ -1477,9 +1476,9 @@
         "type": "ui_text",
         "z": "ce607311.f76b",
         "group": "29d32ec2.d0f5b2",
-        "order": 2,
-        "width": 0,
-        "height": 0,
+        "order": 3,
+        "width": 6,
+        "height": 1,
         "name": "",
         "label": "ultimaDireccion",
         "format": "{{msg.payload}}",
@@ -3133,7 +3132,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 690,
+        "x": 750,
         "y": 40,
         "wires": [
             [
@@ -3164,7 +3163,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 690,
+        "x": 750,
         "y": 120,
         "wires": [
             [
@@ -3195,7 +3194,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 690,
+        "x": 750,
         "y": 200,
         "wires": [
             [
@@ -3217,7 +3216,7 @@
         "inout": "out",
         "septopics": false,
         "property": "topic",
-        "x": 1010,
+        "x": 1070,
         "y": 40,
         "wires": [
             [
@@ -3248,8 +3247,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1170,
-        "y": 840,
+        "x": 2110,
+        "y": 320,
         "wires": []
     },
     {
@@ -3262,8 +3261,8 @@
         "tls": true,
         "name": "",
         "dname": "send E-mail",
-        "x": 1170,
-        "y": 780,
+        "x": 2110,
+        "y": 260,
         "wires": []
     },
     {
@@ -3299,7 +3298,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 860,
+        "x": 920,
         "y": 60,
         "wires": [
             [
@@ -3340,7 +3339,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 850,
+        "x": 910,
         "y": 20,
         "wires": [
             [
@@ -3381,7 +3380,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 860,
+        "x": 920,
         "y": 140,
         "wires": [
             [
@@ -3422,7 +3421,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 850,
+        "x": 910,
         "y": 100,
         "wires": [
             [
@@ -3463,7 +3462,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 860,
+        "x": 920,
         "y": 220,
         "wires": [
             [
@@ -3504,30 +3503,13 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 850,
+        "x": 910,
         "y": 180,
         "wires": [
             [
                 "8880d82a.61881"
             ]
         ]
-    },
-    {
-        "id": "3b95d108.32f6de",
-        "type": "debug",
-        "z": "ce607311.f76b",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 90,
-        "y": 1380,
-        "wires": []
     },
     {
         "id": "9b1c9f44.556348",
@@ -3540,7 +3522,7 @@
         "inout": "out",
         "septopics": false,
         "property": "topic",
-        "x": 1010,
+        "x": 1070,
         "y": 120,
         "wires": [
             [
@@ -3559,7 +3541,7 @@
         "inout": "out",
         "septopics": false,
         "property": "topic",
-        "x": 1010,
+        "x": 1070,
         "y": 200,
         "wires": [
             [
@@ -3983,8 +3965,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 750,
-        "y": 1120,
+        "x": 1410,
+        "y": 40,
         "wires": [
             [
                 "4a3b6add.009b1c"
@@ -4014,8 +3996,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 750,
-        "y": 1200,
+        "x": 1410,
+        "y": 120,
         "wires": [
             [
                 "6003ba31.641dd4"
@@ -4045,8 +4027,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 750,
-        "y": 1280,
+        "x": 1410,
+        "y": 200,
         "wires": [
             [
                 "8b1a22f1.82805"
@@ -4067,8 +4049,8 @@
         "inout": "out",
         "septopics": false,
         "property": "topic",
-        "x": 1070,
-        "y": 1120,
+        "x": 1730,
+        "y": 40,
         "wires": [
             [
                 "a1fd736f.a4d4c"
@@ -4108,8 +4090,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
-        "y": 1140,
+        "x": 1580,
+        "y": 60,
         "wires": [
             [
                 "57db1867.6656b"
@@ -4149,8 +4131,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 910,
-        "y": 1100,
+        "x": 1570,
+        "y": 20,
         "wires": [
             [
                 "57db1867.6656b"
@@ -4190,8 +4172,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
-        "y": 1220,
+        "x": 1580,
+        "y": 140,
         "wires": [
             [
                 "fdcd7295.fd19"
@@ -4231,8 +4213,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 910,
-        "y": 1180,
+        "x": 1570,
+        "y": 100,
         "wires": [
             [
                 "fdcd7295.fd19"
@@ -4272,8 +4254,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
-        "y": 1300,
+        "x": 1580,
+        "y": 220,
         "wires": [
             [
                 "f8b3b086.22c8d"
@@ -4313,8 +4295,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 910,
-        "y": 1260,
+        "x": 1570,
+        "y": 180,
         "wires": [
             [
                 "f8b3b086.22c8d"
@@ -4332,8 +4314,8 @@
         "inout": "out",
         "septopics": false,
         "property": "topic",
-        "x": 1070,
-        "y": 1200,
+        "x": 1730,
+        "y": 120,
         "wires": [
             [
                 "a1fd736f.a4d4c"
@@ -4351,8 +4333,8 @@
         "inout": "out",
         "septopics": false,
         "property": "topic",
-        "x": 1070,
-        "y": 1280,
+        "x": 1730,
+        "y": 200,
         "wires": [
             [
                 "a1fd736f.a4d4c"
@@ -4379,8 +4361,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 710,
-        "y": 1420,
+        "x": 1410,
+        "y": 320,
         "wires": [
             [
                 "25a65489.77ae34"
@@ -4410,8 +4392,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 710,
-        "y": 1500,
+        "x": 1410,
+        "y": 400,
         "wires": [
             [
                 "ed3a2e03.55084"
@@ -4441,8 +4423,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 710,
-        "y": 1580,
+        "x": 1410,
+        "y": 480,
         "wires": [
             [
                 "3433dd56.b0676a"
@@ -4463,8 +4445,8 @@
         "inout": "out",
         "septopics": false,
         "property": "topic",
-        "x": 1030,
-        "y": 1420,
+        "x": 1730,
+        "y": 320,
         "wires": [
             [
                 "c34134b4.fbe578"
@@ -4504,8 +4486,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 880,
-        "y": 1440,
+        "x": 1580,
+        "y": 340,
         "wires": [
             [
                 "e93473e4.6e5d8"
@@ -4545,8 +4527,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 870,
-        "y": 1400,
+        "x": 1570,
+        "y": 300,
         "wires": [
             [
                 "e93473e4.6e5d8"
@@ -4586,8 +4568,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 880,
-        "y": 1520,
+        "x": 1580,
+        "y": 420,
         "wires": [
             [
                 "3c5e4974.6f5fce"
@@ -4627,8 +4609,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 870,
-        "y": 1480,
+        "x": 1570,
+        "y": 380,
         "wires": [
             [
                 "3c5e4974.6f5fce"
@@ -4668,8 +4650,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 880,
-        "y": 1600,
+        "x": 1580,
+        "y": 500,
         "wires": [
             [
                 "d5e632dd.df4558"
@@ -4709,8 +4691,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 870,
-        "y": 1560,
+        "x": 1570,
+        "y": 460,
         "wires": [
             [
                 "d5e632dd.df4558"
@@ -4728,8 +4710,8 @@
         "inout": "out",
         "septopics": false,
         "property": "topic",
-        "x": 1030,
-        "y": 1500,
+        "x": 1730,
+        "y": 400,
         "wires": [
             [
                 "c34134b4.fbe578"
@@ -4747,8 +4729,8 @@
         "inout": "out",
         "septopics": false,
         "property": "topic",
-        "x": 1030,
-        "y": 1580,
+        "x": 1730,
+        "y": 480,
         "wires": [
             [
                 "c34134b4.fbe578"
@@ -4763,7 +4745,7 @@
         "links": [
             "76ce4089.47ba"
         ],
-        "x": 1155,
+        "x": 1215,
         "y": 120,
         "wires": []
     },
@@ -4787,8 +4769,8 @@
         "links": [
             "76ce4089.47ba"
         ],
-        "x": 1215,
-        "y": 1200,
+        "x": 1875,
+        "y": 120,
         "wires": []
     },
     {
@@ -4799,8 +4781,8 @@
         "links": [
             "76ce4089.47ba"
         ],
-        "x": 1175,
-        "y": 1500,
+        "x": 1875,
+        "y": 400,
         "wires": []
     },
     {
@@ -4812,10 +4794,11 @@
             "a1fd736f.a4d4c",
             "c34134b4.fbe578",
             "123d0ea4.91b5f9",
-            "29c5c772.2d058"
+            "29c5c772.2d058",
+            "4bd19293.e863e4"
         ],
-        "x": 1035,
-        "y": 780,
+        "x": 1975,
+        "y": 260,
         "wires": [
             [
                 "40fe4a54.ce95a4",
@@ -5107,6 +5090,1960 @@
         "info": "",
         "x": 190,
         "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "5260fc39.32c134",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Eneko2mem",
+        "links": [
+            "f32e2e2.a53445"
+        ],
+        "x": 875,
+        "y": 1000,
+        "wires": [
+            [
+                "d79a1de9.4a6cb",
+                "6b3c03ce.c5ee1c"
+            ]
+        ]
+    },
+    {
+        "id": "f32e2e2.a53445",
+        "type": "link out",
+        "z": "ce607311.f76b",
+        "name": "Eneko2mem",
+        "links": [
+            "5260fc39.32c134",
+            "4b55a820.cd5268",
+            "e054bf60.1e649"
+        ],
+        "x": 695,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "4b55a820.cd5268",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Eneko2mem",
+        "links": [
+            "f32e2e2.a53445"
+        ],
+        "x": 1315,
+        "y": 480,
+        "wires": [
+            [
+                "481532b3.cb936c"
+            ]
+        ]
+    },
+    {
+        "id": "7d7b51c2.3027d",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Eneko2cpu",
+        "links": [
+            "50f0eaa.3799094"
+        ],
+        "x": 875,
+        "y": 960,
+        "wires": [
+            [
+                "307bbe05.1e9a72",
+                "346bbdf7.3fb212"
+            ]
+        ]
+    },
+    {
+        "id": "3edafdb4.bb22fa",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Eneko2cpu",
+        "links": [
+            "50f0eaa.3799094"
+        ],
+        "x": 1315,
+        "y": 400,
+        "wires": [
+            [
+                "15f86cb0.40d78b"
+            ]
+        ]
+    },
+    {
+        "id": "50f0eaa.3799094",
+        "type": "link out",
+        "z": "ce607311.f76b",
+        "name": "Eneko2cpu",
+        "links": [
+            "3edafdb4.bb22fa",
+            "7d7b51c2.3027d",
+            "59f715c8.a5e734"
+        ],
+        "x": 695,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "983abf2c.24658",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Eneko2grados",
+        "links": [
+            "c2f39faa.518bc"
+        ],
+        "x": 875,
+        "y": 920,
+        "wires": [
+            [
+                "1370b10d.e14f3f",
+                "b84f6d36.e2e7e"
+            ]
+        ]
+    },
+    {
+        "id": "7d6c99e4.ccb74",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Eneko2grados",
+        "links": [
+            "c2f39faa.518bc"
+        ],
+        "x": 1315,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c2f39faa.518bc",
+        "type": "link out",
+        "z": "ce607311.f76b",
+        "name": "Eneko2grados",
+        "links": [
+            "983abf2c.24658",
+            "7d6c99e4.ccb74",
+            "9686de03.8f2be8"
+        ],
+        "x": 695,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "164b0501.92993b",
+        "type": "link out",
+        "z": "ce607311.f76b",
+        "name": "Eneko1mem",
+        "links": [
+            "15939bfa.78650c",
+            "f26ae714.83831",
+            "637bf14e.97f2d"
+        ],
+        "x": 695,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "eec8b02.e6fa4d",
+        "type": "link out",
+        "z": "ce607311.f76b",
+        "name": "Eneko1cpu",
+        "links": [
+            "9467d574.996788",
+            "d6a32b09.1ac4f8",
+            "8e208f98.3d44f"
+        ],
+        "x": 695,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "79bff079.c8b62",
+        "type": "link out",
+        "z": "ce607311.f76b",
+        "name": "Eneko1grados",
+        "links": [
+            "81da0394.fffcd",
+            "6ccde74d.af76f",
+            "96ec0c.be5ce3f8"
+        ],
+        "x": 695,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "15939bfa.78650c",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Eneko1mem",
+        "links": [
+            "164b0501.92993b"
+        ],
+        "x": 875,
+        "y": 880,
+        "wires": [
+            [
+                "cd583a59.c1bab8",
+                "56c1125c.763e8c"
+            ]
+        ]
+    },
+    {
+        "id": "9467d574.996788",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Eneko1cpu",
+        "links": [
+            "eec8b02.e6fa4d"
+        ],
+        "x": 875,
+        "y": 840,
+        "wires": [
+            [
+                "de0a1c2e.54af6",
+                "7d1c5660.a487c8"
+            ]
+        ]
+    },
+    {
+        "id": "81da0394.fffcd",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Eneko1grados",
+        "links": [
+            "79bff079.c8b62"
+        ],
+        "x": 875,
+        "y": 800,
+        "wires": [
+            [
+                "87fa9616.6b4048",
+                "63b0665.364f598"
+            ]
+        ]
+    },
+    {
+        "id": "f26ae714.83831",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Eneko1mem",
+        "links": [
+            "164b0501.92993b"
+        ],
+        "x": 1315,
+        "y": 200,
+        "wires": [
+            [
+                "93daa90d.c1113"
+            ]
+        ]
+    },
+    {
+        "id": "d6a32b09.1ac4f8",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Eneko1cpu",
+        "links": [
+            "eec8b02.e6fa4d"
+        ],
+        "x": 1315,
+        "y": 120,
+        "wires": [
+            [
+                "741e1f74.aa0f98"
+            ]
+        ]
+    },
+    {
+        "id": "6ccde74d.af76f",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Eneko1grados",
+        "links": [
+            "79bff079.c8b62"
+        ],
+        "x": 1315,
+        "y": 40,
+        "wires": [
+            [
+                "30be189.5707be8"
+            ]
+        ]
+    },
+    {
+        "id": "9686de03.8f2be8",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Eneko1grados",
+        "links": [
+            "c2f39faa.518bc"
+        ],
+        "x": 1295,
+        "y": 940,
+        "wires": [
+            [
+                "48b54669.b667d8"
+            ]
+        ]
+    },
+    {
+        "id": "59f715c8.a5e734",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Eneko1cpu",
+        "links": [
+            "50f0eaa.3799094"
+        ],
+        "x": 1295,
+        "y": 980,
+        "wires": [
+            [
+                "48b54669.b667d8"
+            ]
+        ]
+    },
+    {
+        "id": "e054bf60.1e649",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Eneko1mem",
+        "links": [
+            "f32e2e2.a53445"
+        ],
+        "x": 1295,
+        "y": 1020,
+        "wires": [
+            [
+                "48b54669.b667d8"
+            ]
+        ]
+    },
+    {
+        "id": "48b54669.b667d8",
+        "type": "smooth",
+        "z": "ce607311.f76b",
+        "name": "",
+        "property": "payload",
+        "action": "mean",
+        "count": "60",
+        "round": "1",
+        "mult": "multi",
+        "reduce": true,
+        "x": 1440,
+        "y": 980,
+        "wires": [
+            [
+                "c6dbe6dd.3a96e"
+            ]
+        ]
+    },
+    {
+        "id": "f3355a96.6efb08",
+        "type": "join",
+        "z": "ce607311.f76b",
+        "name": "",
+        "mode": "custom",
+        "build": "string",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": ",",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "4",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1750,
+        "y": 980,
+        "wires": [
+            [
+                "b188fad8.c0fd9"
+            ]
+        ]
+    },
+    {
+        "id": "b188fad8.c0fd9",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$now()&\",\"&msg.payload\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1920,
+        "y": 980,
+        "wires": [
+            [
+                "86b92006.84b4f"
+            ]
+        ]
+    },
+    {
+        "id": "86b92006.84b4f",
+        "type": "file",
+        "z": "ce607311.f76b",
+        "name": "Eneko_2",
+        "filename": "/home/pi/.node-red/projects/proyectoAlexFin/aprendiendonodered21/Eneko/raspberrypi2.csv",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 2100,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c6dbe6dd.3a96e",
+        "type": "function",
+        "z": "ce607311.f76b",
+        "name": "",
+        "func": "if (msg.topic===\"aprendiendonodered21/Eneko/raspberrypi2/Temperatura\"){\n    msg.parts = {id:\"Eneko/raspberrypi2\",index:0,count:3};\n}\nif (msg.topic===\"aprendiendonodered21/Eneko/raspberrypi2/CPU\"){\n    msg.parts = {id:\"Eneko/raspberrypi2\",index:1,count:3};\n}\nif (msg.topic===\"aprendiendonodered21/Eneko/raspberrypi2/Memory\"){\n    msg.parts = {id:\"Eneko/raspberrypi2\",index:2,count:3};\n}\nmsg.topic = \"\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1600,
+        "y": 980,
+        "wires": [
+            [
+                "f3355a96.6efb08"
+            ]
+        ]
+    },
+    {
+        "id": "e386eab2.0303c8",
+        "type": "file",
+        "z": "ce607311.f76b",
+        "name": "iniciar_Archivo",
+        "filename": "/home/pi/.node-red/projects/proyectoAlexFin/aprendiendonodered21/Enrique/raspberrypi1.csv",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1980,
+        "y": 1060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8e208f98.3d44f",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Eneko2cpu",
+        "links": [
+            "eec8b02.e6fa4d"
+        ],
+        "x": 1295,
+        "y": 860,
+        "wires": [
+            [
+                "4053b691.5b9db8"
+            ]
+        ]
+    },
+    {
+        "id": "637bf14e.97f2d",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Eneko2mem",
+        "links": [
+            "164b0501.92993b"
+        ],
+        "x": 1295,
+        "y": 900,
+        "wires": [
+            [
+                "4053b691.5b9db8"
+            ]
+        ]
+    },
+    {
+        "id": "4053b691.5b9db8",
+        "type": "smooth",
+        "z": "ce607311.f76b",
+        "name": "",
+        "property": "payload",
+        "action": "mean",
+        "count": "2",
+        "round": "1",
+        "mult": "multi",
+        "reduce": true,
+        "x": 1440,
+        "y": 860,
+        "wires": [
+            [
+                "6188ee3a.7ace28"
+            ]
+        ]
+    },
+    {
+        "id": "35e74382.616c64",
+        "type": "join",
+        "z": "ce607311.f76b",
+        "name": "",
+        "mode": "custom",
+        "build": "string",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": ",",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "4",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1750,
+        "y": 860,
+        "wires": [
+            [
+                "3e8eca2c.10bad6"
+            ]
+        ]
+    },
+    {
+        "id": "3e8eca2c.10bad6",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$now()&\",\"&msg.payload\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1920,
+        "y": 860,
+        "wires": [
+            [
+                "c87b4c67.28914"
+            ]
+        ]
+    },
+    {
+        "id": "c87b4c67.28914",
+        "type": "file",
+        "z": "ce607311.f76b",
+        "name": "Eneko_1",
+        "filename": "/home/pi/.node-red/projects/proyectoAlexFin/aprendiendonodered21/Eneko/raspberrypi1.csv",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 2100,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6188ee3a.7ace28",
+        "type": "function",
+        "z": "ce607311.f76b",
+        "name": "",
+        "func": "if (msg.topic===\"aprendiendonodered21/Eneko/raspberrypi1/Temperatura\"){\n    msg.parts = {id:\"Eneko/raspberrypi1\",index:0,count:3};\n}\nif (msg.topic===\"aprendiendonodered21/Eneko/raspberrypi1/CPU\"){\n    msg.parts = {id:\"Eneko/raspberrypi1\",index:1,count:3};\n}\nif (msg.topic===\"aprendiendonodered21/Eneko/raspberrypi1/Memory\"){\n    msg.parts = {id:\"Eneko/raspberrypi1\",index:2,count:3};\n}\nmsg.topic = \"\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1600,
+        "y": 860,
+        "wires": [
+            [
+                "35e74382.616c64"
+            ]
+        ]
+    },
+    {
+        "id": "5d9b6249.50f46c",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Enrique2grados",
+        "links": [
+            "c9fddd04.3bda8"
+        ],
+        "x": 1295,
+        "y": 700,
+        "wires": [
+            [
+                "79887d8d.57d04c"
+            ]
+        ]
+    },
+    {
+        "id": "9d0d8a83.f9d788",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Enrique2cpu",
+        "links": [
+            "5780dc17.8c0cf4"
+        ],
+        "x": 1295,
+        "y": 740,
+        "wires": [
+            [
+                "79887d8d.57d04c"
+            ]
+        ]
+    },
+    {
+        "id": "598014ca.2cc87c",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Enrique2mem",
+        "links": [
+            "1a466f9.69f279"
+        ],
+        "x": 1295,
+        "y": 780,
+        "wires": [
+            [
+                "79887d8d.57d04c"
+            ]
+        ]
+    },
+    {
+        "id": "79887d8d.57d04c",
+        "type": "smooth",
+        "z": "ce607311.f76b",
+        "name": "",
+        "property": "payload",
+        "action": "mean",
+        "count": "3",
+        "round": "1",
+        "mult": "multi",
+        "reduce": true,
+        "x": 1440,
+        "y": 740,
+        "wires": [
+            [
+                "8e1b4742.8b7dd"
+            ]
+        ]
+    },
+    {
+        "id": "c2eed82a.c9742",
+        "type": "join",
+        "z": "ce607311.f76b",
+        "name": "",
+        "mode": "custom",
+        "build": "string",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": ",",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "4",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1750,
+        "y": 740,
+        "wires": [
+            [
+                "2bedcd2.e4f6e32"
+            ]
+        ]
+    },
+    {
+        "id": "2bedcd2.e4f6e32",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$now()&\",\"&msg.payload\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1920,
+        "y": 740,
+        "wires": [
+            [
+                "25cbcc39.70b754"
+            ]
+        ]
+    },
+    {
+        "id": "25cbcc39.70b754",
+        "type": "file",
+        "z": "ce607311.f76b",
+        "name": "Enrique_2",
+        "filename": "/home/pi/.node-red/projects/proyectoAlexFin/aprendiendonodered21/Enrique/raspberrypi2.csv",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 2110,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8e1b4742.8b7dd",
+        "type": "function",
+        "z": "ce607311.f76b",
+        "name": "",
+        "func": "if (msg.topic===\"aprendiendonodered21/enrique/raspberrypi2/enrique/Temperatura\"){\n    msg.parts = {id:\"Enrique/raspberrypi2\",index:0,count:3};\n}\nif (msg.topic===\"aprendiendonodered21/enrique/raspberrypi2/enrique/CPU\"){\n    msg.parts = {id:\"Enrique/raspberrypi2\",index:1,count:3};\n}\nif (msg.topic===\"aprendiendonodered21/enrique/raspberrypi2/enrique/Memory\"){\n    msg.parts = {id:\"Enrique/raspberrypi2\",index:2,count:3};\n}\nmsg.topic = \"\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1600,
+        "y": 740,
+        "wires": [
+            [
+                "c2eed82a.c9742"
+            ]
+        ]
+    },
+    {
+        "id": "6cdce0c5.36c48",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Enrique1grados",
+        "links": [
+            "17ea4f3c.4d6fd1"
+        ],
+        "x": 1295,
+        "y": 580,
+        "wires": [
+            [
+                "c9c6c2d.3dbd64"
+            ]
+        ]
+    },
+    {
+        "id": "7e760fc0.5c715",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Enrique1cpu",
+        "links": [
+            "6adeff4b.6b1bd"
+        ],
+        "x": 1295,
+        "y": 620,
+        "wires": [
+            [
+                "c9c6c2d.3dbd64"
+            ]
+        ]
+    },
+    {
+        "id": "adc6c96a.d3bec",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Enrique1mem",
+        "links": [
+            "12f128fc.c3383f"
+        ],
+        "x": 1295,
+        "y": 660,
+        "wires": [
+            [
+                "c9c6c2d.3dbd64"
+            ]
+        ]
+    },
+    {
+        "id": "c9c6c2d.3dbd64",
+        "type": "smooth",
+        "z": "ce607311.f76b",
+        "name": "",
+        "property": "payload",
+        "action": "mean",
+        "count": "3",
+        "round": "1",
+        "mult": "multi",
+        "reduce": true,
+        "x": 1440,
+        "y": 620,
+        "wires": [
+            [
+                "f4293510.934c1"
+            ]
+        ]
+    },
+    {
+        "id": "b22cf6a5.cdf2d8",
+        "type": "join",
+        "z": "ce607311.f76b",
+        "name": "",
+        "mode": "custom",
+        "build": "string",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": ",",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "4",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1750,
+        "y": 620,
+        "wires": [
+            [
+                "bc52a0f3.302c6"
+            ]
+        ]
+    },
+    {
+        "id": "bc52a0f3.302c6",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$now()&\",\"&msg.payload\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1920,
+        "y": 620,
+        "wires": [
+            [
+                "39ac3f50.a89c5"
+            ]
+        ]
+    },
+    {
+        "id": "39ac3f50.a89c5",
+        "type": "file",
+        "z": "ce607311.f76b",
+        "name": "Enrique_1",
+        "filename": "/home/pi/.node-red/projects/proyectoAlexFin/aprendiendonodered21/Enrique/raspberrypi1.csv",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 2110,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f4293510.934c1",
+        "type": "function",
+        "z": "ce607311.f76b",
+        "name": "",
+        "func": "if (msg.topic===\"aprendiendonodered21/enrique/raspberrypi1/enrique/Temperatura\"){\n    msg.parts = {id:\"Enrique/raspberrypi1\",index:0,count:3};\n}\nif (msg.topic===\"aprendiendonodered21/enrique/raspberrypi1/enrique/CPU\"){\n    msg.parts = {id:\"Enrique/raspberrypi1\",index:1,count:3};\n}\nif (msg.topic===\"aprendiendonodered21/enrique/raspberrypi1/enrique/Memory\"){\n    msg.parts = {id:\"Enrique/raspberrypi1\",index:2,count:3};\n}\nmsg.topic = \"\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1600,
+        "y": 620,
+        "wires": [
+            [
+                "b22cf6a5.cdf2d8"
+            ]
+        ]
+    },
+    {
+        "id": "96ec0c.be5ce3f8",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Eneko2grados",
+        "links": [
+            "79bff079.c8b62"
+        ],
+        "x": 1295,
+        "y": 820,
+        "wires": [
+            [
+                "4053b691.5b9db8"
+            ]
+        ]
+    },
+    {
+        "id": "1a466f9.69f279",
+        "type": "link out",
+        "z": "ce607311.f76b",
+        "name": "Enrique2mem",
+        "links": [
+            "598014ca.2cc87c",
+            "7335fe68.980a9",
+            "6771775d.3862d8"
+        ],
+        "x": 695,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "5780dc17.8c0cf4",
+        "type": "link out",
+        "z": "ce607311.f76b",
+        "name": "Enriqu2cpu",
+        "links": [
+            "28b908a9.4055d",
+            "9d0d8a83.f9d788",
+            "e9a6c72b.6a2c18"
+        ],
+        "x": 695,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "c9fddd04.3bda8",
+        "type": "link out",
+        "z": "ce607311.f76b",
+        "name": "Enrique2grados",
+        "links": [
+            "5d9b6249.50f46c",
+            "db4c39af.fa8a2",
+            "dcea9d93.6cdf9"
+        ],
+        "x": 695,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "7335fe68.980a9",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Enrique2mem",
+        "links": [
+            "1a466f9.69f279"
+        ],
+        "x": 875,
+        "y": 760,
+        "wires": [
+            [
+                "4292e656.70df28",
+                "30480cd2.6ec594"
+            ]
+        ]
+    },
+    {
+        "id": "28b908a9.4055d",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Enrique2cpu",
+        "links": [
+            "5780dc17.8c0cf4"
+        ],
+        "x": 875,
+        "y": 720,
+        "wires": [
+            [
+                "b48c02ed.1b35e",
+                "eec60900.894828"
+            ]
+        ]
+    },
+    {
+        "id": "db4c39af.fa8a2",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Enrique2grados",
+        "links": [
+            "c9fddd04.3bda8"
+        ],
+        "x": 875,
+        "y": 680,
+        "wires": [
+            [
+                "1e2ceae2.adde75",
+                "b641af7f.2241"
+            ]
+        ]
+    },
+    {
+        "id": "17ea4f3c.4d6fd1",
+        "type": "link out",
+        "z": "ce607311.f76b",
+        "name": "Enrique1grados",
+        "links": [
+            "5d92725d.ac63dc",
+            "c0fd88c3.faada",
+            "6cdce0c5.36c48"
+        ],
+        "x": 695,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "6adeff4b.6b1bd",
+        "type": "link out",
+        "z": "ce607311.f76b",
+        "name": "Enrique1cpu",
+        "links": [
+            "6dfb01fb.1ef71",
+            "cfa233fa.b916b8",
+            "7e760fc0.5c715"
+        ],
+        "x": 695,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "12f128fc.c3383f",
+        "type": "link out",
+        "z": "ce607311.f76b",
+        "name": "Enrique1mem",
+        "links": [
+            "ebaf89ab.f8ff48",
+            "1304d00a.e742e",
+            "adc6c96a.d3bec"
+        ],
+        "x": 695,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "e9a6c72b.6a2c18",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Enrique2cpu",
+        "links": [
+            "5780dc17.8c0cf4"
+        ],
+        "x": 635,
+        "y": 400,
+        "wires": [
+            [
+                "255e2ca6.b12b84"
+            ]
+        ]
+    },
+    {
+        "id": "dcea9d93.6cdf9",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Enrique2grados",
+        "links": [
+            "c9fddd04.3bda8"
+        ],
+        "x": 635,
+        "y": 320,
+        "wires": [
+            [
+                "c2eff72e.febab"
+            ]
+        ]
+    },
+    {
+        "id": "6771775d.3862d8",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Enrique2mem",
+        "links": [
+            "1a466f9.69f279"
+        ],
+        "x": 635,
+        "y": 480,
+        "wires": [
+            [
+                "b26105b.35910f8"
+            ]
+        ]
+    },
+    {
+        "id": "6dfb01fb.1ef71",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Enrique1cpu",
+        "links": [
+            "6adeff4b.6b1bd"
+        ],
+        "x": 635,
+        "y": 120,
+        "wires": [
+            [
+                "dbcb901.cd6b97"
+            ]
+        ]
+    },
+    {
+        "id": "5d92725d.ac63dc",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Enrique1grados",
+        "links": [
+            "17ea4f3c.4d6fd1"
+        ],
+        "x": 635,
+        "y": 40,
+        "wires": [
+            [
+                "983ecc19.0e5d7"
+            ]
+        ]
+    },
+    {
+        "id": "ebaf89ab.f8ff48",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Enrique1mem",
+        "links": [
+            "12f128fc.c3383f"
+        ],
+        "x": 635,
+        "y": 200,
+        "wires": [
+            [
+                "90510443.05e9f8"
+            ]
+        ]
+    },
+    {
+        "id": "1304d00a.e742e",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Enrique1mem",
+        "links": [
+            "12f128fc.c3383f"
+        ],
+        "x": 875,
+        "y": 640,
+        "wires": [
+            [
+                "190840fe.16e71f",
+                "7185ea61.328404"
+            ]
+        ]
+    },
+    {
+        "id": "cfa233fa.b916b8",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Enrique1cpu",
+        "links": [
+            "6adeff4b.6b1bd"
+        ],
+        "x": 875,
+        "y": 600,
+        "wires": [
+            [
+                "a9a6e4a7.a86ad8",
+                "500abb72.51a174"
+            ]
+        ]
+    },
+    {
+        "id": "c0fd88c3.faada",
+        "type": "link in",
+        "z": "ce607311.f76b",
+        "name": "Enrique1grados",
+        "links": [
+            "17ea4f3c.4d6fd1"
+        ],
+        "x": 875,
+        "y": 560,
+        "wires": [
+            [
+                "c7515d53.a95fe",
+                "e555b1c1.42929"
+            ]
+        ]
+    },
+    {
+        "id": "a97421f4.d8dde",
+        "type": "file",
+        "z": "ce607311.f76b",
+        "name": "iniciar_Archivo",
+        "filename": "/home/pi/.node-red/projects/proyectoAlexFin/aprendiendonodered21/Enrique/raspberrypi2.csv",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1980,
+        "y": 1100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "43f7ab10.047ad4",
+        "type": "file",
+        "z": "ce607311.f76b",
+        "name": "iniciar_Archivo",
+        "filename": "/home/pi/.node-red/projects/proyectoAlexFin/aprendiendonodered21/Eneko/raspberrypi1.csv",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1980,
+        "y": 1140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a5af2608.8539e",
+        "type": "file",
+        "z": "ce607311.f76b",
+        "name": "iniciar_Archivo",
+        "filename": "/home/pi/.node-red/projects/proyectoAlexFin/aprendiendonodered21/Eneko/raspberrypi2.csv",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1980,
+        "y": 1180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "aac227ac.263e3",
+        "type": "comment",
+        "z": "ce607311.f76b",
+        "name": "Registrar solo el promedio de X lecturas",
+        "info": "1 smooth-node recibe 5 mensajes de cada uno de los 3 topics, entonces envia 3 mensajes con los 3 promedios.\n2 function-node ordena el index Tempe(0), cpu(1), mem(2) y quita el topic.\n3 join-node crea la string csv. Tiene timeout 4 segundos, envia aunque falte uno o dos datos.\n4 change-node anade el timestamp al pricipio.\n5 file-node anade la string al final del archivo con linea nueva.",
+        "x": 1750,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "cc82ea3f.24f1a",
+        "type": "function",
+        "z": "ce607311.f76b",
+        "name": "",
+        "func": "//declaro tres arrays que llenare en los tres ciclos for\nvar serie2 = [];\nvar serie3 = [];\nvar serie4 = [];\n//es mas comodo tener len para los tres ciclos for\nvar len = msg.payload.length;\n//de str sacare las tres comas y los tres nombres de columna\nvar str = msg.columns;\nvar pos1 = str.indexOf(\",\");\nvar pos2 = str.indexOf(\",\", pos1+1);\nvar pos3 = str.indexOf(\",\", pos2+1);\nvar nombreColumna2 = str.substring(pos1+1, pos2);\nvar nombreColumna3 = str.substring(pos2+1, pos3);\nvar nombreColumna4 = str.substring(pos3+1);\n//lleno los arrays, aunque timesatamp es comun, hay que ponerlo\nfor(var i = 0; i < len; i++){\n    serie2[i] = {\"x\":msg.payload[i].timestamp,\"y\":msg.payload[i][nombreColumna2]};\n}\nfor(i = 0; i < len; i++){\n    serie3[i] = {\"x\":msg.payload[i].timestamp,\"y\":msg.payload[i][nombreColumna3]};\n}\nfor(i = 0; i < len; i++){\n    serie4[i] = {\"x\":msg.payload[i].timestamp,\"y\":msg.payload[i][nombreColumna4]};\n}\n//con \"series\" y \"data\" ya preparadas, solo tengo que\n//colocar las tres variables y arrays en su sitio\nvar chart = [{\n    \"series\":[nombreColumna2, nombreColumna3, nombreColumna4],\n    \"data\":[serie2, serie3, serie4],\n    \"labels\":[\"\"]\n}];\nmsg.payload = chart;\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 1100,
+        "wires": [
+            [
+                "b592bbf8.5af4c"
+            ]
+        ]
+    },
+    {
+        "id": "b592bbf8.5af4c",
+        "type": "ui_chart",
+        "z": "ce607311.f76b",
+        "name": "chart_3_series",
+        "group": "57b0108b.363f88",
+        "order": 1,
+        "width": 15,
+        "height": 6,
+        "label": "Temperatura_CPU_Memoria",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "Temperatura_CPU_Memoria",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#d20000",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 860,
+        "y": 1100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d1a0f31f.f6e59",
+        "type": "csv",
+        "z": "ce607311.f76b",
+        "name": "",
+        "sep": ",",
+        "hdrin": true,
+        "hdrout": "none",
+        "multi": "mult",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 510,
+        "y": 1160,
+        "wires": [
+            [
+                "cc82ea3f.24f1a",
+                "32a75f7b.203358",
+                "90696275.15d86",
+                "7934f21a.b55efc",
+                "b7cf9d3f.914e78",
+                "760f03d1.51b934"
+            ]
+        ]
+    },
+    {
+        "id": "33224840.7ad22",
+        "type": "file in",
+        "z": "ce607311.f76b",
+        "name": "file_in",
+        "filename": "/home/pi/.node-red/projects/proyectoAlexFin/aprendiendonodered21/Enrique/raspberrypi1.csv",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "x": 350,
+        "y": 1100,
+        "wires": [
+            [
+                "d1a0f31f.f6e59"
+            ]
+        ]
+    },
+    {
+        "id": "32a75f7b.203358",
+        "type": "function",
+        "z": "ce607311.f76b",
+        "name": "",
+        "func": "var serie = [];\nvar len = msg.payload.length;\nvar str = msg.columns;\nvar pos1 = str.indexOf(\",\");\nvar pos2 = str.indexOf(\",\", pos1+1);\nvar pos3 = str.indexOf(\",\", pos2+1);\nvar nombreColumna2 = str.substring(pos1+1, pos2);\nvar nombreColumna3 = str.substring(pos2+1, pos3);\nvar nombreColumna4 = str.substring(pos3+1);\n//lleno los arrays, aunque timesatamp es comun, hay que ponerlo\nfor(var i = 0; i < len; i++){\n    serie[i] = {\"x\":msg.payload[i].timestamp,\"y\":msg.payload[i][nombreColumna2]};\n}\nvar chart = [{\n    \"series\":[nombreColumna2],\n    \"data\":[serie],\n    \"labels\":[\"\"]\n}];\nmsg.payload = chart;\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 1140,
+        "wires": [
+            [
+                "9d5fb6f4.cd6578"
+            ]
+        ]
+    },
+    {
+        "id": "9d5fb6f4.cd6578",
+        "type": "ui_chart",
+        "z": "ce607311.f76b",
+        "name": "chart_Temperatura",
+        "group": "57b0108b.363f88",
+        "order": 2,
+        "width": 5,
+        "height": 3,
+        "label": "Temperatura",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "Temperatura",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#d20000",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 870,
+        "y": 1140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "90696275.15d86",
+        "type": "function",
+        "z": "ce607311.f76b",
+        "name": "",
+        "func": "var serie = [];\nvar len = msg.payload.length;\nvar str = msg.columns;\nvar pos1 = str.indexOf(\",\");\nvar pos2 = str.indexOf(\",\", pos1+1);\nvar pos3 = str.indexOf(\",\", pos2+1);\nvar nombreColumna2 = str.substring(pos1+1, pos2);\nvar nombreColumna3 = str.substring(pos2+1, pos3);\nvar nombreColumna4 = str.substring(pos3+1);\n//lleno los arrays, aunque timesatamp es comun, hay que ponerlo\nfor(var i = 0; i < len; i++){\n    serie[i] = {\"x\":msg.payload[i].timestamp,\"y\":msg.payload[i][nombreColumna3]};\n}\nvar chart = [{\n    \"series\":[nombreColumna3],\n    \"data\":[serie],\n    \"labels\":[\"\"]\n}];\nmsg.payload = chart;\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 1180,
+        "wires": [
+            [
+                "ba938fed.d1626"
+            ]
+        ]
+    },
+    {
+        "id": "ba938fed.d1626",
+        "type": "ui_chart",
+        "z": "ce607311.f76b",
+        "name": "chart_CPU",
+        "group": "57b0108b.363f88",
+        "order": 3,
+        "width": 5,
+        "height": 3,
+        "label": "CPU",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "CPU",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#aec7e8",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 850,
+        "y": 1180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7934f21a.b55efc",
+        "type": "function",
+        "z": "ce607311.f76b",
+        "name": "",
+        "func": "var serie = [];\nvar len = msg.payload.length;\nvar str = msg.columns;\nvar pos1 = str.indexOf(\",\");\nvar pos2 = str.indexOf(\",\", pos1+1);\nvar pos3 = str.indexOf(\",\", pos2+1);\nvar nombreColumna2 = str.substring(pos1+1, pos2);\nvar nombreColumna3 = str.substring(pos2+1, pos3);\nvar nombreColumna4 = str.substring(pos3+1);\n//lleno los arrays, aunque timesatamp es comun, hay que ponerlo\nfor(var i = 0; i < len; i++){\n    serie[i] = {\"x\":msg.payload[i].timestamp,\"y\":msg.payload[i][nombreColumna4]};\n}\nvar chart = [{\n    \"series\":[nombreColumna4],\n    \"data\":[serie],\n    \"labels\":[\"\"]\n}];\nmsg.payload = chart;\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 1220,
+        "wires": [
+            [
+                "d5625a1f.7a7d48"
+            ]
+        ]
+    },
+    {
+        "id": "d5625a1f.7a7d48",
+        "type": "ui_chart",
+        "z": "ce607311.f76b",
+        "name": "chart_Memoria",
+        "group": "57b0108b.363f88",
+        "order": 4,
+        "width": 5,
+        "height": 3,
+        "label": "Memoria",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "Memoria",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ff7f0e",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 860,
+        "y": 1220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a771136a.7d3348",
+        "type": "ui_button",
+        "z": "ce607311.f76b",
+        "name": "",
+        "group": "189e3a36.d76d66",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Enrique_RasPi_1",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 190,
+        "y": 1100,
+        "wires": [
+            [
+                "33224840.7ad22"
+            ]
+        ]
+    },
+    {
+        "id": "a4f212f2.d5b99",
+        "type": "ui_button",
+        "z": "ce607311.f76b",
+        "name": "",
+        "group": "189e3a36.d76d66",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Enrique_RasPi_2",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 190,
+        "y": 1140,
+        "wires": [
+            [
+                "63c21709.7b3448"
+            ]
+        ]
+    },
+    {
+        "id": "f01e3eea.3cf9c",
+        "type": "ui_button",
+        "z": "ce607311.f76b",
+        "name": "",
+        "group": "189e3a36.d76d66",
+        "order": 5,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Eneko_RasPi_1",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 180,
+        "y": 1180,
+        "wires": [
+            [
+                "c565cd96.67b92"
+            ]
+        ]
+    },
+    {
+        "id": "d3845a46.03ed4",
+        "type": "ui_button",
+        "z": "ce607311.f76b",
+        "name": "",
+        "group": "189e3a36.d76d66",
+        "order": 6,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Eneko_RasPi_2",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 180,
+        "y": 1220,
+        "wires": [
+            [
+                "e3436f41.09abf8"
+            ]
+        ]
+    },
+    {
+        "id": "63c21709.7b3448",
+        "type": "file in",
+        "z": "ce607311.f76b",
+        "name": "file_in",
+        "filename": "/home/pi/.node-red/projects/proyectoAlexFin/aprendiendonodered21/Enrique/raspberrypi2.csv",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "x": 350,
+        "y": 1140,
+        "wires": [
+            [
+                "d1a0f31f.f6e59"
+            ]
+        ]
+    },
+    {
+        "id": "c565cd96.67b92",
+        "type": "file in",
+        "z": "ce607311.f76b",
+        "name": "file_in",
+        "filename": "/home/pi/.node-red/projects/proyectoAlexFin/aprendiendonodered21/Eneko/raspberrypi1a.csv",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "x": 350,
+        "y": 1180,
+        "wires": [
+            [
+                "d1a0f31f.f6e59"
+            ]
+        ]
+    },
+    {
+        "id": "e3436f41.09abf8",
+        "type": "file in",
+        "z": "ce607311.f76b",
+        "name": "file_in",
+        "filename": "/home/pi/.node-red/projects/proyectoAlexFin/aprendiendonodered21/Eneko/raspberrypi2a.csv",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "x": 350,
+        "y": 1220,
+        "wires": [
+            [
+                "d1a0f31f.f6e59"
+            ]
+        ]
+    },
+    {
+        "id": "f06ee7f7.0dbc68",
+        "type": "ui_toast",
+        "z": "ce607311.f76b",
+        "position": "prompt",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "Aceptar",
+        "cancel": "Cancelar",
+        "raw": false,
+        "topic": "",
+        "name": "ATENCION",
+        "x": 1610,
+        "y": 1120,
+        "wires": [
+            [
+                "37d4978a.a04268"
+            ]
+        ]
+    },
+    {
+        "id": "37d4978a.a04268",
+        "type": "function",
+        "z": "ce607311.f76b",
+        "name": "",
+        "func": "if (msg.payload===\"1234\"){\n    msg.payload = \"timestamp,Temp,CPU,Memo\";\n} else {\n    return;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1780,
+        "y": 1120,
+        "wires": [
+            [
+                "e386eab2.0303c8",
+                "a97421f4.d8dde",
+                "43f7ab10.047ad4",
+                "a5af2608.8539e"
+            ]
+        ]
+    },
+    {
+        "id": "a25c6c7a.163338",
+        "type": "comment",
+        "z": "ce607311.f76b",
+        "name": "Reiniciar archivos con advertencia",
+        "info": "",
+        "x": 1600,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "58145a3d.bfa804",
+        "type": "comment",
+        "z": "ce607311.f76b",
+        "name": "Graficar un archivo",
+        "info": "Leo el archivo elegido.\nLo paso a csv (con array[] y msg.columns)\nEn el csv-node se ha elegido:\n-first row contains column names\n-parse numerical values.\nY hago 4 charts, uno grande y 3 pequenos.\n\nLa unica forma de graficar los datos guardados en un csv es pasarle al chart-node un array especial en el payload.\nhttps://github.com/node-red/node-red-dashboard/blob/master/Charts.md\n\nInput (desde el csv-node) payload: array[] con length igual a numero de filas, columns: string con los nombres de columna separados por coma, es decir, la primera fila.\n\noutput (de los function-node) un array que contiene un objeto que contiene 3 arrays [{series[], data[], labels[]}]\n\n\nDebajo se ha puesto una funcion muy simple para que se entienda. Los tiempos son los primeros segundos y milisegundos del tiempo epoch.\n\nvar chart = [{\n    \"series\":[\"Tempe\"],\n    \"data\":[[\n    {\"x\":0,\"y\":20},\n    {\"x\":1000,\"y\":20.5},\n    {\"x\":2000,\"y\":19.5},\n    {\"x\":9000,\"y\":20},\n    {\"x\":9250,\"y\":20},\n    {\"x\":9500,\"y\":20},\n    {\"x\":9750,\"y\":20},\n    {\"x\":12000,\"y\":20},\n    {\"x\":13000,\"y\":21},\n    {\"x\":14000,\"y\":21},\n    {\"x\":15000,\"y\":20},\n    {\"x\":16000,\"y\":23},\n    {\"x\":17000,\"y\":22},\n    {\"x\":18000,\"y\":23}\n    ]],\n    \"labels\":[\"\"]\n}];\nmsg.payload = chart;\n\nreturn msg;",
+        "x": 290,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "b7cf9d3f.914e78",
+        "type": "ui_text",
+        "z": "ce607311.f76b",
+        "group": "189e3a36.d76d66",
+        "order": 3,
+        "width": 7,
+        "height": 2,
+        "name": "filename info",
+        "label": "",
+        "format": "{{msg.filename}}",
+        "layout": "col-center",
+        "x": 670,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "760f03d1.51b934",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "archivoActual",
+                "pt": "flow",
+                "to": "filename",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 1300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cd57186b.f06a6",
+        "type": "file in",
+        "z": "ce607311.f76b",
+        "name": "",
+        "filename": "",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "x": 1710,
+        "y": 1280,
+        "wires": [
+            [
+                "4bd19293.e863e4"
+            ]
+        ]
+    },
+    {
+        "id": "cfb599da.214c",
+        "type": "change",
+        "z": "ce607311.f76b",
+        "name": "Change",
+        "rules": [
+            {
+                "t": "set",
+                "p": "filename",
+                "pt": "msg",
+                "to": "archivoActual",
+                "tot": "flow"
+            },
+            {
+                "t": "set",
+                "p": "to",
+                "pt": "msg",
+                "to": "ultimaDireccion",
+                "tot": "flow"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Enviar por E-mail a:",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "ultimaDireccion",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1220,
+        "y": 1280,
+        "wires": [
+            [
+                "b0a6ccca.c99c18"
+            ]
+        ]
+    },
+    {
+        "id": "4bd19293.e863e4",
+        "type": "link out",
+        "z": "ce607311.f76b",
+        "name": "send",
+        "links": [
+            "76ce4089.47ba"
+        ],
+        "x": 1815,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "b0a6ccca.c99c18",
+        "type": "ui_toast",
+        "z": "ce607311.f76b",
+        "position": "dialog",
+        "displayTime": "5",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "Cancelar",
+        "cancel": "Aceptar",
+        "raw": false,
+        "topic": "",
+        "name": "",
+        "x": 1390,
+        "y": 1280,
+        "wires": [
+            [
+                "609d30af.8fe4a8"
+            ]
+        ]
+    },
+    {
+        "id": "609d30af.8fe4a8",
+        "type": "function",
+        "z": "ce607311.f76b",
+        "name": "",
+        "func": "if (msg.payload===\"Aceptar\"){\n} else {\n    return;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1560,
+        "y": 1280,
+        "wires": [
+            [
+                "cd57186b.f06a6"
+            ]
+        ]
+    },
+    {
+        "id": "dfe3a505.e60788",
+        "type": "comment",
+        "z": "ce607311.f76b",
+        "name": "Enviar un archivo con advertencia",
+        "info": "",
+        "x": 1280,
+        "y": 1240,
         "wires": []
     }
 ]
