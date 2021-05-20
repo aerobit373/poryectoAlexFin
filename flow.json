@@ -1390,18 +1390,18 @@
         "order": 7,
         "width": 2,
         "height": 1,
-        "passthru": false,
+        "passthru": true,
         "label": "Start_Files",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
         "icon": "",
-        "payload": "Los cuatro archivos se borraran",
+        "payload": "contrasena : 1234",
         "payloadType": "str",
-        "topic": "ATENCION",
+        "topic": "¿quieres iniciar los 4 archivos?",
         "topicType": "str",
-        "x": 1390,
-        "y": 1120,
+        "x": 1530,
+        "y": 1140,
         "wires": [
             [
                 "f06ee7f7.0dbc68"
@@ -1427,8 +1427,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 1060,
-        "y": 1280,
+        "x": 1340,
+        "y": 1260,
         "wires": [
             [
                 "cfb599da.214c"
@@ -5539,8 +5539,8 @@
         "createDir": false,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 1980,
-        "y": 1060,
+        "x": 2120,
+        "y": 1080,
         "wires": [
             []
         ]
@@ -6308,8 +6308,8 @@
         "createDir": false,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 1980,
-        "y": 1100,
+        "x": 2120,
+        "y": 1120,
         "wires": [
             []
         ]
@@ -6324,8 +6324,8 @@
         "createDir": false,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 1980,
-        "y": 1140,
+        "x": 2120,
+        "y": 1160,
         "wires": [
             []
         ]
@@ -6340,8 +6340,8 @@
         "createDir": false,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 1980,
-        "y": 1180,
+        "x": 2120,
+        "y": 1200,
         "wires": [
             []
         ]
@@ -6441,7 +6441,6 @@
                 "32a75f7b.203358",
                 "90696275.15d86",
                 "7934f21a.b55efc",
-                "b7cf9d3f.914e78",
                 "760f03d1.51b934"
             ]
         ]
@@ -6781,7 +6780,7 @@
         "type": "file in",
         "z": "ce607311.f76b",
         "name": "file_in",
-        "filename": "/home/pi/.node-red/projects/proyectoAlexFin/aprendiendonodered21/Eneko/raspberrypi1a.csv",
+        "filename": "/home/pi/.node-red/projects/proyectoAlexFin/aprendiendonodered21/Eneko/raspberrypi1.csv",
         "format": "utf8",
         "chunk": false,
         "sendError": false,
@@ -6799,7 +6798,7 @@
         "type": "file in",
         "z": "ce607311.f76b",
         "name": "file_in",
-        "filename": "/home/pi/.node-red/projects/proyectoAlexFin/aprendiendonodered21/Eneko/raspberrypi2a.csv",
+        "filename": "/home/pi/.node-red/projects/proyectoAlexFin/aprendiendonodered21/Eneko/raspberrypi2.csv",
         "format": "utf8",
         "chunk": false,
         "sendError": false,
@@ -6826,8 +6825,8 @@
         "raw": false,
         "topic": "",
         "name": "ATENCION",
-        "x": 1610,
-        "y": 1120,
+        "x": 1730,
+        "y": 1140,
         "wires": [
             [
                 "37d4978a.a04268"
@@ -6845,8 +6844,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1780,
-        "y": 1120,
+        "x": 1920,
+        "y": 1140,
         "wires": [
             [
                 "e386eab2.0303c8",
@@ -6862,8 +6861,8 @@
         "z": "ce607311.f76b",
         "name": "Reiniciar archivos con advertencia",
         "info": "",
-        "x": 1600,
-        "y": 1080,
+        "x": 1740,
+        "y": 1100,
         "wires": []
     },
     {
@@ -6886,10 +6885,10 @@
         "height": 2,
         "name": "filename info",
         "label": "",
-        "format": "{{msg.filename}}",
+        "format": "{{msg.payload}}",
         "layout": "col-center",
-        "x": 670,
-        "y": 1260,
+        "x": 990,
+        "y": 1280,
         "wires": []
     },
     {
@@ -6904,6 +6903,13 @@
                 "pt": "flow",
                 "to": "filename",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -6911,10 +6917,12 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 660,
-        "y": 1300,
+        "x": 640,
+        "y": 1280,
         "wires": [
-            []
+            [
+                "4b93f435.bccc54"
+            ]
         ]
     },
     {
@@ -6927,8 +6935,8 @@
         "chunk": false,
         "sendError": false,
         "encoding": "none",
-        "x": 1710,
-        "y": 1280,
+        "x": 1990,
+        "y": 1260,
         "wires": [
             [
                 "4bd19293.e863e4"
@@ -6975,8 +6983,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1220,
-        "y": 1280,
+        "x": 1500,
+        "y": 1260,
         "wires": [
             [
                 "b0a6ccca.c99c18"
@@ -6991,8 +6999,8 @@
         "links": [
             "76ce4089.47ba"
         ],
-        "x": 1815,
-        "y": 1280,
+        "x": 2095,
+        "y": 1260,
         "wires": []
     },
     {
@@ -7009,8 +7017,8 @@
         "raw": false,
         "topic": "",
         "name": "",
-        "x": 1390,
-        "y": 1280,
+        "x": 1670,
+        "y": 1260,
         "wires": [
             [
                 "609d30af.8fe4a8"
@@ -7028,8 +7036,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1560,
-        "y": 1280,
+        "x": 1840,
+        "y": 1260,
         "wires": [
             [
                 "cd57186b.f06a6"
@@ -7042,8 +7050,66 @@
         "z": "ce607311.f76b",
         "name": "Enviar un archivo con advertencia",
         "info": "",
-        "x": 1280,
-        "y": 1240,
+        "x": 1560,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "21697a1b.0f5536",
+        "type": "inject",
+        "z": "ce607311.f76b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 1350,
+        "y": 1140,
+        "wires": [
+            [
+                "e1d9d5e.b274e28"
+            ]
+        ]
+    },
+    {
+        "id": "4b93f435.bccc54",
+        "type": "function",
+        "z": "ce607311.f76b",
+        "name": "",
+        "func": "var fs = global.get(\"fs\");\n\nfs.stat(msg.filename, 'utf8' , (err, stats) => {\n  if (err) {\n    node.error(err);\n    node.status(err);\n    return;\n  }\n  msg.payload = msg.filename + \" ... size= \" + stats.size + \" KB\";\n  node.send(msg);\n});\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 1280,
+        "wires": [
+            [
+                "b7cf9d3f.914e78"
+            ]
+        ]
+    },
+    {
+        "id": "ec2c0474.97578",
+        "type": "comment",
+        "z": "ce607311.f76b",
+        "name": "settings.js",
+        "info": "En settings.js tiene que estar esto:\nfunctionGlobalContext: {\n     fs:require('fs')\n},\nasi puedes acceder a todos los metodos del node.js core module \"fs\"\nhttps://nodejs.dev/learn/nodejs-file-stats",
+        "x": 820,
+        "y": 1320,
         "wires": []
     }
 ]
